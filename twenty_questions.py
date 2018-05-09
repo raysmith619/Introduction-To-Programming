@@ -1,7 +1,7 @@
 """ twenty_questions.py
 A simple python learning program
 to play twenty questions
-I'm thinking of a number from 1 to 10
+I'm thinking of a number from 1 to N
 You make guesses as to if the number is greater,
 less, or equal to some number within that range.
 Please enter >NUMBER to guess is it greater than that number
@@ -10,7 +10,7 @@ I'll answer yes or no.
 import random
 
 bottom_number = 1
-top_number = 10
+top_number = 20
 print("""
     I'm thinking of a number from %d to %d
     You make guesses about this number.
@@ -119,7 +119,7 @@ while True:
                 print("no")
 
 
-    print("Want to play another? Enter y")
+    print("Want to play another? Enter q to QUIT")
     iline = input()
     if iline.startswith("t"):
         iline = iline.replace("t", "")
@@ -128,7 +128,7 @@ while True:
         print("New top_number is %d" % top_number)
         continue
     
-    if iline != "y":
+    if iline == "q":
         break               # No more games
 
 print("Thanks.  Let's play again soon!")
