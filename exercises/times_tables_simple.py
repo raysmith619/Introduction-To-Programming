@@ -1,4 +1,4 @@
-# times_tables.py    23Aug2018
+# times_tables_simple.py    23Aug2018
 """
 Display a times-table suitable for grade school review
 Request and accept limit from user.
@@ -21,6 +21,7 @@ while i <= last:        # Vertical down page
     j = first
     while j <= last:    # Horizontal accross page
         print(" ", i*j, end="")
+### without the end="" - adds unwanted newline:       print(" ", i*j)
         j = j + 1
     print("")           # End of line
     i = i + 1

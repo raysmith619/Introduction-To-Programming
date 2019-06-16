@@ -11,7 +11,7 @@ Example for 5:
 """
 inp = input("Enter times table length: ")
 if inp == "":
-    inp = "5"       # Default is 5
+    inp = "5"   # Default is 5
 
 max = int(inp)
 first = 1
