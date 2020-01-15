@@ -1,0 +1,28 @@
+Showing poor results when encountering negative numbers:
+
+RESTART: C:\Users\raysm\workspace\python\IntroductionToProgramming\exercises\times_tables\times_tables_allignment_len.py 
+Enter Max,Min [5,3] ( - q to quit): 2,-2
+ 4 2 0 -2 -4
+ 2 1 0 -1 -2
+ 0 0 0 0 0
+ -2 -1 0 1 2
+ -4 -2 0 2 4
+Enter Max,Min [5,3] ( - q to quit): +2,-2
+ 4 2 0 -2 -4
+ 2 1 0 -1 -2
+ 0 0 0 0 0
+ -2 -1 0 1 2
+ -4 -2 0 2 4
+Enter Max,Min [5,3] ( - q to quit): 5,-5
+ 25 20 15 10  5  0 -5 -10 -15 -20 -25
+ 20 16 12  8  4  0 -4 -8 -12 -16 -20
+ 15 12  9  6  3  0 -3 -6 -9 -12 -15
+ 10  8  6  4  2  0 -2 -4 -6 -8 -10
+  5  4  3  2  1  0 -1 -2 -3 -4 -5
+  0  0  0  0  0  0  0  0  0  0  0
+ -5 -4 -3 -2 -1  0  1  2  3  4  5
+ -10 -8 -6 -4 -2  0  2  4  6  8 10
+ -15 -12 -9 -6 -3  0  3  6  9 12 15
+ -20 -16 -12 -8 -4  0  4  8 12 16 20
+ -25 -20 -15 -10 -5  0  5 10 15 20 25
+Enter Max,Min [5,3] ( - q to quit): 
