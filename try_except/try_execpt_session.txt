@@ -1,0 +1,46 @@
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> # Using try/except to improve geting input from user
+>>> # Sometime the user types an illegal number
+>>> # which when sent to the function "int" gets an error.
+>>> inp = "bad number"
+>>> int(inp)
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    int(inp)
+ValueError: invalid literal for int() with base 10: 'bad number'
+>>> # Lets modify our first iteration (loop asking numbers)
+>>> # to "try" converting the input with "int" and, if this fails
+>>> # for any reason complain and try again.
+>>> # Runing first.py
+ RESTART: C:\Users\raysm\workspace\python\IntroductionToProgramming\try_except\first.py 
+Please enter guess: 2
+Number entered: 2
+Please enter guess: four
+Traceback (most recent call last):
+  File "C:\Users\raysm\workspace\python\IntroductionToProgramming\try_except\first.py", line 11, in <module>
+    guess = int(inp_str)        # Convert string to internal integer
+ValueError: invalid literal for int() with base 10: 'four'
+
+>>> # The following is mostly for the instructor so I can run
+>>> # program files from the IDLE shell
+>>> import os
+>>> os.chdir('c:/Users/raysm/workspace/python/IntroductionToProgramming')
+>>> os.chdir('try_except')
+>>> os.listdir()
+['first.py', 'first_try.py', 'timestableN.py', 'timestableN_out.txt', 'timestableN_with_try.py', 'try_execpt_session.txt']
+>>> exec(open('first_try.py').read())
+Please enter guess: 3
+Number entered: 3
+Please enter guess: three
+'int' doesn't like three as an argument
+Please enter guess: 4
+Number entered: 4
+Please enter guess: 
+
+Traceback (most recent call last):
+  File "<pyshell#42>", line 1, in <module>
+    exec(open('first_try.py').read())
+  File "<string>", line 10, in <module>
+KeyboardInterrupt
+>>> # I just keyed 'ctrl-C' to exit the loop
