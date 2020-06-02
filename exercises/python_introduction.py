@@ -1,15 +1,18 @@
 Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
+
 >>> # The following is an interactive introduction to basic Python concepts.
 >>> # The text is pretty much as I typed it in to the Python IDLE shell,
 >>> # and got printed out by the shell python shell evaluation.
+
 >>> # You might get some useful practice by trying these examples on your
 >>> # computer in the IDLE shell.
->>> # Lines with # are ignored by python from the # character to line end
+>>> # Lines with # are ignored by python from the # character to line end.
 >>> # This introduction takes place within the python IDLE interpreter
+
 >>> # Lines starting with ">>> " can be directly typed, minus the ">>> ", into
 >>> # IDLE
->>> # Lines typed after the ">>> " are evaluated by python, and the value,
+>>> # Text typed after the ">>> " are evaluated by python, and the value,
 >>> #  if any, is displayed.
 >>> 1
 1
@@ -31,23 +34,41 @@ Type "help", "copyright", "credits" or "license()" for more information.
 8
 >>> 5%2     # remainder of 5 divided by 2
 1
+>>>
+>>> # One can do multiple things on a line by separating them
+>>> # with semicolons (;)
+>>> 1;2;4
+1
+2
+4
 # One may combine expressions on a line with separating commas:
 >>> 2+3,2*3,2-1,2**3,5%2
 (5, 6, 1, 8, 1)
 >>> 
 >>> # Another feature of python is the string.  The string is a sequence of
->>> # characters such as a,b,c or -,=,#. To indicate to python that this
->>> # sequence of characters is a sequence of characters, rather than
->>> # something else, such as
->>> # a name or an operator, one must surround the sequence with markers.
+>>> # characters such as a,b,c or -,=,#. To indicate that this
+>>> # sequence of characters is a list of characters,  one must surround the
+>>> # sequence with matching markers.
 >>> # The string markers may be a single double quote ("), a single single
 >>> # quote ('), a tripple double quote ("""), or a tripple single quote (''').
+
+>>> # Without the markers (",', ''', or """), Python thinks the characters
+>>> # make up something else, such as a variable name.
 >>> "abc"
 'abc'
 >>> "def ghi"
 'def ghi'
 >>> "!@#$%^&*()_+"
 '!@#$%^&*()_+'
+
+>>> # Strings can be joined or concatinated by using "+"
+>>> "Ray" + " " + "Smith"
+'Ray Smith'
+
+>>> # Normally strings MUST be on a single line
+>>> # Multi-line strings may be created by using """ or ''' markers.
+>>> # The string starts from the first marker (""" or ''') and
+>>> # continues to the next MATCHING marker (""" or ''').
 >>> """Possible multiline
 string"""
 'Possible multiline\nstring'
@@ -55,27 +76,36 @@ string"""
 >>> # (line separator)
 
 >>> # print - print out text, by default, to the screen
->>> # Unlike the python IDLE shell, normal python programs require a function
->>> # to print to the screen.  The most used function is "print".
->>> # To print a one or more values to the screen one may use print(...a comma
+>>> # Unlike the python IDLE shell, whose default action
+>>> # is to print each expression evaluated, normal python programs require
+>>> # using the function "print" to print to the screen.
+
+>>> # To print one or more values to the screen one may use print.
+>>> # The format is:
 >>> # print(...a comma separated set of values...)
 >>> print(1,2,3)
 1 2 3
 >>> print("abc", "def", "ghi", 1, 2, 3)
 abc def ghi 1 2 3
->>> # The values to print may be constants e.g. 1,"a","a string"
->>> print(1,"a","a string")
+
+>>> # The values to print may be constants e.g. 1, "a", "a string"
+>>> print(1, "a", "a string")
 1 a a string
->>> # The values to print can be expressiong e.g. 1+2+3
+>>> # The values to print can be expressions, e.g. 1+2+3
 >>> print(1+2+3)
 6
 >>> # Variables
 >>> # In programming, python in particular, it is often very useful to have
->>> # places to store values which can be used later to obtain these values.
->>> # Usually it is helpful that these places have names.  In general, this
->>> # is the function of variables.  In the simplest case, variable names MUST
->>> # start with a letter "a" through "z" or "_" and continue with letters
->>> # "a"-"z", "0"-"9", or "_".
+>>> # places to store values which can be used later.
+>>> # Usually, it is helpful that these places have names.  In general,
+>>> # the function of a variable, is to contain a value, for later use.
+>>> # The value is obtained at a later time by using the variable's name.
+
+>>> # Variable names MUST
+>>> #   1. start with a letter "a" through "z" or "_" and continue
+>>> #      with letters "a"-"z", "0"-"9", or "_".
+>>> #   2. NO other characters, such as spaces, periods, dashes,...
+>>> #      are allowed
 >>> # Variables are defined and initialized (provided with values) with
 >>> # a statement of the form:
 >>> #	<variable name> = <value>
@@ -299,4 +329,3 @@ TypeError: can only concatenate str (not "int") to str
 True
 >>> guess + 1
 124
->>> 
