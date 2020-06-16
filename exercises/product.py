@@ -10,8 +10,9 @@ def testit(factor1, factor2, factor3):
     """
     test our product function, providing 3 factors
     """
-    print("factor(", factor1, factor2, factor3, ") ",
-          product(factor1, factor2, factor3))
+    result = product(factor1, factor2, factor3)
+    print("product(", factor1, factor2, factor3, ") ", result)
+
 testit(.5, .4, .3)
 testit(1, 2, 3)
 testit(-1, -1, -1)
