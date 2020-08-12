@@ -1,0 +1,131 @@
+Python Language Examples
+=====================================
+                    Computer Programming Things
+                    ==================================            
+                    What is a (computer) program?
+                        Instructions (to the computer)
+                        as what to do
+
+                        A Plan
+
+                    What are some attributes?
+                        Abstract, Doesn't wear out
+                        Writen once used many times
+
+                        Mistakes  not always apparent
+                        Mistakes seen again and again
+
+                    Techniques:
+                        Iteration - small improvements
+                        Reuse copy, saveas, modification
+                        Rules / Style
+                        Small learning examples
+                        Interactive exercises
+IDLE - Python's Interactive Development
+    Learning Environment
+
+                    Common Things:
+                    Source code - commonly in a file
+                                readable text
+file_name.py
+
+                    Comments - informal / descriptive
+# comment line
+"""
+Multiple line "doc"comment
+can go over many lines
+"""
+
+                    Arithmetic / Computation
++ - * / % **
++= -= *=
+()
+                    Variables
+a b name short_name
+NOT 1a, short name, long-name, with,comma
+
+                    Constants
+1,2,3
+4.5, 6.78
+True, False
+                    (character) Strings
+"Twas the night before Christmas"
+' and all through the house'
+story = "Beginning"
+story += " middle"
+story += " end."
+
+
+                    Decisions - choice
+if a > b:
+    max = a
+
+if num % 2 == 0:
+    is_even = True
+else:
+    is_even = False
+
+
+                    Loops - repeated operation
+n = 1
+while n < 5:
+    n += 2
+    print("n:", n)
+    
+for n in range(1,5,2):
+    print("n:", n)
+    
+break
+continue
+                    Grouping
+Python uses indentaton
+Don't mix spaces and tabs!
+A group of statements must be indented to the same
+number of spaces.
+Indentatoin rule is relaxed inside (), [], or {}.
+
+                    Functions
+                        (Some written by others)
+print("Our Story:", story)
+guess = input("Please Enter a guess:")
+n_guess = int(guess)
+
+                        (Some you can create)
+def my_story(st)
+    return "Our Story " + st
+
+print("Using my_story ", my_story(story))
+
+                        Multiple and Key word parameters
+def print(*args, end="\n", sep=" ")
+    ...
+print("a", "b", end="", sep=":")
+
+                    Multiple program files / External support
+import random
+from random import randint
+target = randint(1,20)  # Create a random target between 1 and 20
+
+                    Help is out there
+Google "python random int between two numbers"
+
+
+                      Life is full of lists...
+my_friends = [] # Lonely
+my_friends.append("Joe")
+my friends.append("Tom")
+for friend in my_friends:
+    print(friend)
+
+                    Dictionary - "A list, but by name/key
+
+positions = {"president" : "George Washington",
+           "vice president" : "Jhon Adams",
+           "treasurer" : "Michael Hillegas"}
+for position in positions:
+    print(position, ":", positions[position])
+          
+                                        
+
+
+
