@@ -3,6 +3,10 @@
 Provide a formatted(alligned) table
  n down (rows)
  m side (columns)
+      1  2  3  4
+    + -- -- -- --
+   1|  1  2  3  4
+   2|  2  4  6  8
 """
 def get_in(prompt=None, default=None):
     """ get input, empty = default value

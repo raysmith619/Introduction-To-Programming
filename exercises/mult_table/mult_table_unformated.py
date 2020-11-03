@@ -1,6 +1,6 @@
 # mult_table_unformatted.py 03Feb2020
 """
-Provide a formatted(alligned) table
+Provide a nonformatted(not necessarily alligned) table
  n down (rows)
  m side (columns)
 """
