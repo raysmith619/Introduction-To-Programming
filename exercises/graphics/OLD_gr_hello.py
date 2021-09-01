@@ -1,15 +1,10 @@
-# gr_hello.py   12Aug2021   crs, use tkMessageBox
-#               07Mar2019   crs Author
+# gr_hello.py   07Mar2019   crs Author
 """
 
 Put up a message
 Simplest graphics example I know.
 """
-import tkinter
-import tkinter as tk
-from tkinter import messagebox  # from tk import fails
-root = tk.Tk()
-root.withdraw()     # To avoid root window display
+from tkinter import messagebox
 title = "Hello"
 message = "Hello World!"
 messagebox.showinfo(title, message)

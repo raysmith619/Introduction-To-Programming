@@ -1,4 +1,5 @@
-# gr_input.py   07Mar2019   crs Author
+# gr_input.py   12Aug2021   crs, Catch Return/ENTRY
+#               07Mar2019   crs Author
 """
 Prompt User and accept input
 """
@@ -13,15 +14,19 @@ def gr_input(prompt="Enter"):
     def ok_cmd():
         """ Function called  upon "OK" button
         """
-        global entry_var, entry_text
+        global entry_text
         entry_text = entry_var.get()    # Retrieve
         mw.quit()                       # Exit tk mainloop
         
-    
+    def return_process(event):
+        ###print("Processing <Return>")
+        ok_cmd()
+        
     label = Label(mw, text=prompt)    # Create Label with prompt
     label.pack(side=LEFT)
 
-    entry = Entry(mw, textvariable=entry_var, bd=3)        # Create Entry space on right
+    entry = Entry(mw, textvariable=entry_var, bd=3) # Create Entry space on right
+    entry.bind("<Return>", return_process)  # Catch <Return>
     entry.pack(side=LEFT)
 
     button = Button(mw, text="OK", command=ok_cmd, fg="blue", bg="light gray")
