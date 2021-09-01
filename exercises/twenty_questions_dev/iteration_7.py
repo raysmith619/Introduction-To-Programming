@@ -19,6 +19,7 @@ Use integer values
 
 import random
 target_hi = 20      # High end of target
+target_hi = 30      # High end of target
 ###target_hi = 5    # TFD
 target_low = 1      # LOW END OF TARGET
 preamble = f"""
@@ -30,7 +31,7 @@ print(preamble)
 while True:
     target = random.randint(target_low, target_hi)
     while True:
-        inp = input("Enter Guess:")
+        inp = input(f"Enter Guess ({target_low} and {target_hi}):")
         print("Number:", inp)
         try:
             guess = int(inp)    # Convert to integer

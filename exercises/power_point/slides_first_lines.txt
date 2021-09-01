@@ -1,0 +1,285 @@
+Python 3.9.4 (tags/v3.9.4:1f2e308, Apr  6 2021, 13:40:21) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:\Users\raysm\workspace\python\IntroductionToProgramming\exercises\power_point\pptx_first_lines.py
+Introduction to Proramming Using Python.pptx
+----------------------
+
+Side 1 Introduction to Programming Using Python
+
+Side 2 Course Outline (An Estimate)
+
+Side 3 Course Outline - continued
+
+Side 4 Course Outline - continued
+
+Side 5 Instructor – Ray Smith raysmith@alum.mit.edu
+
+Side 6 Objectives
+
+Side 7 Our Online Class – Using Zoom
+
+Side 8 Class Session Structure – Each Week
+
+Side 9 Session #1 – Introduction Touching on the topic
+
+Side 10 Programming Telling the Computer What to Do
+
+Side 11 Learn by DOING
+
+Side 12 Our Sandbox – IDLE Demonstration and Testing
+
+Side 13 IDLE – continued
+
+Side 14 Documentation – Lots of Nice STUFF
+
+Side 15 A Quick Introduction to Pythonwordy offline guide file - IDLE
+
+Side 16 Blazing Introduction to Parts of Python
+
+Side 17 Blazing Introduction – continuedIDLE primer
+
+Side 18 Blazing Introduction Part 1 – Did we mention...
+
+Side 19 Blazing Introduction Part 1B – Did we mention...
+
+Side 20 IDLE – IF/WHEN I changed my mind…
+
+Side 21 Blazing Introduction Part 2 Python Code Files
+
+Side 22 Blazing Introduction Part 2 Python Code Files
+
+Side 23 Blazing Introduction Part 2 Python Code Files
+
+Side 24 Blazing Introduction Part 2 - continuedHello World! - You Try!
+
+Side 25 Hello World! – output – my example
+
+Side 26 Blazing Introduction Part 2 - continuedMake a New Program – goodbye_world.py
+
+Side 27 Blazing Introduction Part 3 – Did we mention...
+
+Side 28 Blazing Introduction Part 4 –lists...
+
+Side 29 Blazing Introduction Part 4 – Adding Dictionaries...
+
+Side 30 Course ProjectA Real Life Program YOU Will Create:Twenty Questions
+
+Side 31 Sample Output
+
+Side 32 Twenty Questions - continued
+
+Side 33 Guessing Game – Iteration 1
+
+Side 34 Guessing Game – Iteration 1 - continued
+
+Side 35 The First Iteration
+
+Side 36 HOMEWORK
+
+Side 37 Question and Answer
+
+Side 38 Session #2Ideas, Concepts, Tools	
+
+Side 39 Programming Ideas
+
+Side 40 Programming Concepts –Computer == VERY Obedient Servant
+
+Side 41 Similar Activities
+
+Side 42 Like Computer Programming, They do / have
+
+Side 43 Unlike Computer Programming,they have / are
+
+Side 44 What's Easy to Programming – No so physical
+
+Side 45 What's Not Easy – because No so physical
+
+Side 46 Python Rules and Mechanics -You will see more Python Details… 
+
+Side 47 Still more Python Tools…
+
+Side 48 A Quick Review of Python - continued
+
+Side 49 A Quick Review of Python - continued
+
+Side 50 A Quick Review of Python - continue
+
+Side 51 A Quick Review of Python - continued
+
+Side 52 A Quick Review of Python - continued
+
+Side 53 A Quick Review of Python - continued
+
+Side 54 A Quick Review of Python - continued
+
+Side 55 A Quick Review of Python - continued
+
+Side 56 A Quick Review Python - continued
+
+Side 57 A Quick Review of Python - continued
+
+Side 58 A Quick Review of Python - continued
+
+Side 59 A Quick Review of Python - continued
+
+Side 60 Python Language - continued
+
+Side 61 Python Language – print function
+
+Side 62 Python Language – print function - more
+
+Side 63 Python Language – formatted string in action
+
+Side 64 Python Language - Testing
+
+Side 65 Python Language – Looping - while
+
+Side 66 Python Language – Looping - for
+
+Side 67 Exercise: “Times Tables” for 13 – 1x13, 2x13, …,13x13
+
+Side 68 Python Language – input function
+
+Side 69 Exercise: “Times Tables” – with user giving number
+
+Side 70 Exercise for LATER: “Times Tables” – Full table from 1x1 to NxN
+
+Side 71 Second Iteration – A bit More
+
+Side 72 Second Iteration – continued
+
+Side 73 Thinking of Iterations
+
+Side 74 Sample Program Iterations
+
+Side 75 Think of the Iterations - continued
+
+Side 76 More Python – VariablesPlaces to store values
+
+Side 77 Python Language Guidelineswith some exceptions
+
+Side 78 Python Language Guidelines- continued
+
+Side 79 Python Language Guidelines- continued
+
+Side 80 Python importBring in support
+
+Side 81 Help is a click awayWeb searching
+
+Side 82 Help is a click awayWeb searching - continued
+
+Side 83 Question and Answer
+
+Side 84 Session #3 – Functions – Divide and Conquer
+
+Side 85 Friends – Simple List Example / Exercise
+
+Side 86 Friends – Simple List continued
+
+Side 87 Functions – Divide and Conquer
+
+Side 88 Functions – continued
+
+Side 89 Functions – continued
+
+Side 90 Functions – continued
+
+Side 91 Functions – continued
+
+Side 92 Functions – Simple Example / ExerciseExtend add_friends, writing a function
+
+Side 93 Functions – continuedExercise – Special Product Function
+
+Side 94 Functions – Keyword parameters
+
+Side 95 Functions – Keyword parameters - continued
+
+Side 96 Functions – Keyword parameters – example – built-in function: print()
+
+Side 97 Functions – Keyword parameters – print() Exercise 2: – Print factors – factors.py
+
+Side 98 Functions – Keyword parameters – print Exercise
+
+Side 99 Lists – a review - numbered / expandable
+
+Side 100 Functions – An example of usefriends_family/friends_1.py 
+
+Side 101 Functions – friends_1.py 
+
+Side 102 Functions – friends_2.py 
+
+Side 103 Functions – friends_3.py 
+
+Side 104 Functions – friends_mod.py 
+
+Side 105 Functions – friends_4.py 
+
+Side 106 Strings - Like a lists of characters - ALMOST
+
+Side 107 Strings - continued
+
+Side 108 Strings – continued - immutable
+
+Side 109 Question and Answer
+
+Side 110 Session #4 – Functions – Detailed Look
+
+Side 111 Dictionary  - Group of values - Access by name
+
+Side 112 Dictionary - continued
+
+Side 113 Using Dictionary for friends_family
+
+Side 114 Classes – Structure – Object Oriented
+
+Side 115 Classes – Programmer Defined Patterns for Objects to be used
+
+Side 116 Classes – In action
+
+Side 117 Classes – definition
+
+Side 118 Classes – continued
+
+Side 119 Classes – continued
+
+Side 120 Classes – Example: Person, PersonGroupGeneralizing previously mentioned friends_family
+
+Side 121 Classes – continued
+
+Side 122 FilesData that stays around
+
+Side 123 Files – continued – Creating
+
+Side 124 Files - continued
+
+Side 125 Files – continued – Exercises
+
+Side 126 Files – continuedNotes - A Simple Data Base
+
+Side 127 Notes - A Simple Data Base – ContinuedDetails
+
+Side 128 Notes - A Simple Data Base – ContinuedDetails
+
+Side 129 Notes - A Simple Data Base – ContinuedIterations
+
+Side 130 Future – Python as "Glue"
+
+Side 131 F-string – easer / more powerful string formatting
+
+Side 132 F-string – continued
+
+Side 133 F-string – continued
+
+Side 134 F-string – continued
+
+Side 135 F-string – continued
+
+Side 136 Finding python.exe from IDLE
+
+Side 137 Other Python Teachings
+test.pptx
+----------------------
+
+Side 1 Hello, World!
+>>> 

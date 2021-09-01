@@ -6,7 +6,8 @@
 # + Set up target, check for match
 # Use integer values
 #
-# +
+# + Tell user if too high or too low
+#
 
 target = 15
 while True:

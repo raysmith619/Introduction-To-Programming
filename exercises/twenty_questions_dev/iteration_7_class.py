@@ -49,7 +49,7 @@ while True:
             print("Congratulations", guess, "is my number")
             break       # End this game
 
-    print("Play a new game?")
+    print("Play again?")
     inp = input("Enter N to quit: ")
     if inp == "N" or inp == "n":
         break
