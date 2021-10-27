@@ -21,5 +21,5 @@ with open(file_name) as finp:
     for line in finp:
         line = line.rstrip()    # All trailing white space
         pat_index = line.find(pattern)
-        if (pat_index > 0):
+        if (pat_index > -1):
             print(line)

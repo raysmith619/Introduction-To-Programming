@@ -44,5 +44,5 @@ with open(file_name) as finp:
         line = line.rstrip()        # All trailing white space
         line_lc = line.lower()
         pat_index = line_lc.find(pattern_lc)
-        if (pat_index > 0):
+        if (pat_index > -1):
             print(line)

@@ -30,7 +30,7 @@ class Ball2dTable:
         self.rotation = rotation
         
     def __str__(self):
-        """ String representation of ball
+        """ String representation of ball???
         """
         table_str = f"Ball2dTable:{self.color}"
         table_str += f" length:{self.length} x {self.width} ft"

@@ -24,8 +24,8 @@ class Ball2d:
                 default: 0
         :vel_y: y (vertical down)
                 default: 0
-        :prev_time: Time of previous activity
-                    in default time inc
+        :time_prev: Time of previous activity
+                    in default time increment
                 default: 0
         """
         self.color = color

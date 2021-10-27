@@ -84,10 +84,10 @@ def search_pat(file_name, pattern):
         and_found = 0
         or_found = 0
         for and_pat in and_pats:
-            if line_lc.find(and_pat)  >= 0:
+            if line_lc.find(and_pat)  > -1:
                 and_found += 1
         for or_pat in or_pats:
-            if line_lc.find(or_pat) >= 0:
+            if line_lc.find(or_pat) > -1:
                 or_found += 1
         if len(and_pats) > 0:
             if and_found == len(and_pats):
