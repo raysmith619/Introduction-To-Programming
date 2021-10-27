@@ -1,0 +1,218 @@
+Searching...
+search_args:['tom', 'brady']
+request:https://google.com/search?q= https://pypi.org/search/?q=tom brady
+
+
+Experimenting with soup navigation
+prettify - failed
+
+
+soup <b>
+
+
+soup <a>
+<a href="/?sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQOwgC">
+ <span class="V6gwVd">
+  G
+ </span>
+ <span class="iWkuvd">
+  o
+ </span>
+ <span class="cDrQ7">
+  o
+ </span>
+ <span class="V6gwVd">
+  g
+ </span>
+ <span class="ntlR9">
+  l
+ </span>
+ <span class="iWkuvd tJ3Myc">
+  e
+ </span>
+</a>
+<a class="l" href="/?output=search&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQPAgE">
+ <span class="V6gwVd">
+  G
+ </span>
+ <span class="iWkuvd">
+  o
+ </span>
+ <span class="cDrQ7">
+  o
+ </span>
+ <span class="V6gwVd">
+  g
+ </span>
+ <span class="ntlR9">
+  l
+ </span>
+ <span class="iWkuvd tJ3Myc">
+  e
+ </span>
+</a>
+
+<a href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;gbv=1&amp;sei=EeOvYMv6NZ2z5NoP0NSSwA4">
+ here
+</a>
+
+<a class="eZt8xd" href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQ_AUICCgB">
+ News
+</a>
+
+<a class="eZt8xd" href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQ_AUICSgC">
+ Videos
+</a>
+
+<a class="eZt8xd" href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQ_AUICigD">
+ Images
+</a>
+
+<a href="https://maps.google.com/maps?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQ_AUICygE">
+ Maps
+</a>
+
+<a href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQ_AUIDCgF">
+ Shopping
+</a>
+
+<a href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQ_AUIDSgG">
+ Books
+</a>
+
+<a href="/advanced_search" id="st-toggle" role="button" style="white-space:nowrap">
+ Search tools
+</a>
+<a href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQpwUIDw">
+ Past hour
+</a>
+<a href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQpwUIEA">
+ Past 24 hours
+</a>
+<a href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQpwUIEQ">
+ Past week
+</a>
+<a href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQpwUIEg">
+ Past month
+</a>
+<a href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQpwUIEw">
+ Past year
+</a>
+<a href="/search?q=https://pypi.org/search/%3Fq%3Dtom+brady&amp;ie=UTF-8&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=0ahUKEwiLx76UverwAhWdGVkFHVCqBOgQpwUIFQ">
+ Verbatim
+</a>
+<a href="/url?q=https://pypi.org/search/&amp;sa=U&amp;ved=2ahUKEwiLx76UverwAhWdGVkFHVCqBOgQFjAAegQICBAB&amp;usg=AOvVaw1XfueqvCaa5-aVpb76iR-K">
+ <h3 class="zBAuLc">
+  <div class="BNeawe vvjwJb AP7Wnd">
+   Search results · PyPI
+  </div>
+ </h3>
+ <div class="BNeawe UPmit AP7Wnd">
+  pypi.org › search
+ </div>
+</a>
+<a href="/url?q=https://pypi.org/&amp;sa=U&amp;ved=2ahUKEwiLx76UverwAhWdGVkFHVCqBOgQFjABegQIBhAB&amp;usg=AOvVaw3vVo6D0bMnCQlolAn3gU7e">
+ <h3 class="zBAuLc">
+  <div class="BNeawe vvjwJb AP7Wnd">
+   PyPI · The Python Package Index
+  </div>
+ </h3>
+ <div class="BNeawe UPmit AP7Wnd">
+  pypi.org
+ </div>
+</a>
+<a href="/url?q=https://pypi.org/project/pypiserver/&amp;sa=U&amp;ved=2ahUKEwiLx76UverwAhWdGVkFHVCqBOgQFjACegQIBxAB&amp;usg=AOvVaw2uitcehEe95q1BsZvO3Jw8">
+ <h3 class="zBAuLc">
+  <div class="BNeawe vvjwJb AP7Wnd">
+   pypiserver · PyPI
+  </div>
+ </h3>
+ <div class="BNeawe UPmit AP7Wnd">
+  pypi.org › project › pypiserver
+ </div>
+</a>
+<a href="/search?ie=UTF-8&amp;q=https://pypi.org/search/?q%3Dtom+%22brady%22&amp;sa=X&amp;ved=2ahUKEwiLx76UverwAhWdGVkFHVCqBOgQ5t4CMAJ6BAgHEAM">
+ <span class="XLloXe AP7Wnd">
+  brady
+ </span>
+</a>
+<a class="Q71vJc" href="/search?ie=UTF-8&amp;q=Python&amp;sa=X&amp;ved=2ahUKEwiLx76UverwAhWdGVkFHVCqBOgQ1QIwA3oECAAQAg">
+ <accordion-entry-search-icon>
+  <span class="ieB2Dd WqQeqc LsF2v">
+   <span>
+   </span>
+  </span>
+ </accordion-entry-search-icon>
+ <div class="kjGX2">
+  <span>
+   <div class="BNeawe s3v9rd AP7Wnd lRVwie">
+    Python
+   </div>
+  </span>
+ </div>
+</a>
+<a class="Q71vJc" href="/search?ie=UTF-8&amp;q=Pip+install&amp;sa=X&amp;ved=2ahUKEwiLx76UverwAhWdGVkFHVCqBOgQ1QIwBHoECAAQBA">
+ <accordion-entry-search-icon>
+  <span class="ieB2Dd WqQeqc LsF2v">
+   <span>
+   </span>
+  </span>
+ </accordion-entry-search-icon>
+ <div class="kjGX2">
+  <span>
+   <div class="BNeawe s3v9rd AP7Wnd lRVwie">
+    Pip install
+   </div>
+  </span>
+ </div>
+</a>
+<a class="Q71vJc" href="/search?ie=UTF-8&amp;q=PyCharm&amp;sa=X&amp;ved=2ahUKEwiLx76UverwAhWdGVkFHVCqBOgQ1QIwBXoECAAQBg">
+ <accordion-entry-search-icon>
+  <span class="ieB2Dd WqQeqc LsF2v">
+   <span>
+   </span>
+  </span>
+ </accordion-entry-search-icon>
+ <div class="kjGX2">
+  <span>
+   <div class="BNeawe s3v9rd AP7Wnd lRVwie">
+    PyCharm
+   </div>
+  </span>
+ </div>
+</a>
+<a class="Q71vJc" href="/search?ie=UTF-8&amp;q=PyPy&amp;sa=X&amp;ved=2ahUKEwiLx76UverwAhWdGVkFHVCqBOgQ1QIwBnoECAAQCA">
+ <accordion-entry-search-icon>
+  <span class="ieB2Dd WqQeqc LsF2v">
+   <span>
+   </span>
+  </span>
+ </accordion-entry-search-icon>
+ <div class="kjGX2">
+  <span>
+   <div class="BNeawe s3v9rd AP7Wnd lRVwie">
+    PyPy
+   </div>
+  </span>
+ </div>
+</a>
+<a href="/url?q=https://pypi.org/project/pip/&amp;sa=U&amp;ved=2ahUKEwiLx76UverwAhWdGVkFHVCqBOgQFjAHegQIChAB&amp;usg=AOvVaw23Ahy7eXL1TsMjIOItioHE">
+ <h3 class="zBAuLc">
+  <div class="BNeawe vvjwJb AP7Wnd">
+   pip · PyPI
+  </div>
+ </h3>
+ <div class="BNeawe UPmit AP7Wnd">
+  pypi.org › project › pip
+ </div>
+</a>
+<a href="/url?q=https://pypi.org/project/toml/&amp;sa=U&amp;ved=2ahUKEwiLx76UverwAhWdGVkFHVCqBOgQFjAIegQICRAB&amp;usg=AOvVaw0kfZ345bR2ZeTl21vVDz68">
+ <h3 class="zBAuLc">
+  <div class="BNeawe vvjwJb AP7Wnd">
+   toml · PyPI
+  </div>
+ </h3>
+ <div class="BNeawe UPmit AP7Wnd">
+  pypi.org › project › toml
+ </div>
+</a>
