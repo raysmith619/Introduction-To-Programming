@@ -1,4 +1,4 @@
-# motion.py 08Aug2021  crs, Author
+# motion_faces.py 08Aug2021  crs, Author
 """
 Simple motion commands
 User inputs direction commands and the
@@ -7,20 +7,15 @@ picture changes
 cmds = {"up": 1, "down" : 1, "left" : 1,
         "right" : 1, "bye":1}
 cmd_prev = "right"   # Last cmd
+irow = 0    # Vertical down
+icol = 0    # Horizontal to right
 board_width = 5
 board_height = board_width +1
-
-"""
-markers - for symetry make them the
-same length
-"""
-empty = "."
-full = "*"
+empty = " .. "
+full =  " :) "
 
 """
 Initialize 2D array of empty cells
-irow = Vertical down, starting at 0
-icol = Horizontal to right, starting at 0
 """
 board = []  #list of rows, row is list of columns
 for ir in range(board_height):
@@ -37,9 +32,7 @@ def print_board():
         for icol in range(board_width):
             print(board[irow][icol], sep="", end="")
         print()
-
-icol = 0   # Starting 0 based col,row values
-irow = 0
+        
 while True:
     print_board()
     inp = input(f"Enter up,down,left, or right[{cmd_prev}]:")
@@ -51,6 +44,7 @@ while True:
         print(f"I don't understand {cmd}")
         continue
     
+    cmd_prev = cmd        # Record command
     inewcol = icol        # Setup posible new location
     inewrow = irow
     if cmd == "up":
@@ -79,7 +73,6 @@ while True:
     irow = inewrow  # Update location
     icol = inewcol
     board[irow][icol] = full    # Mark new location
-    cmd_prev = cmd              # Record command
     
 print("Good bye")
               
