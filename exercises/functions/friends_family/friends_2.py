@@ -38,7 +38,9 @@ def add_friends(*friends):
     """ Add zero or more friends
     :*friends: zero or more friend names
     """
-    print("\nadd_friends(", *friends, ")")    # passing on list to print
+    print("\nadd_friends(",
+          ",".join(friends),
+          ")", sep="")    # Pretty print list, join with ","
     for friend in friends:  # comma separated args become list
         add_one_friend(friend)
 

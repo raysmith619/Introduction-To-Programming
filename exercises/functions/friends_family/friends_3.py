@@ -33,7 +33,8 @@ def add_friends(*friends):
     """ Add zero or more friends
     :*friends: zero or more friend names
     """
-    print("\nadd_friends(", *friends, ")")    # passing on list to print
+    print("\nadd_friends(",
+          ",".join(friends), ")")    # passing on list to print
     for friend in friends:  # comma separated args become list
         add_one_friend(friend)
 
@@ -74,7 +75,7 @@ def test_is_friend_ck(possible, expect=True):
     """ Helper function check if test passes
     :possible: possible friend
     :expect: expected value (True,False)
-        default: True if not present
+        default: True - expected friend
     """
     print("test_is_friend_ck:", possible, "expect=", expect, end="")
     result = is_friend(possible)
@@ -92,7 +93,7 @@ def test_is_friend():
     print("Set up friends list")
     my_friends = []             # Start test with empty list
     add_friends("joe", "mary", "ray")
-    print("Check function")
+    print("\nCheck is_friend function")
     test_is_friend_ck("joe")    # Check if True as expected
     test_is_friend_ck("marty", expect=False)    # Check if False
     test_is_friend_ck("mary", expect=True)      # Ck if True explicit
