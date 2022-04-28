@@ -5,7 +5,6 @@
 Put up a message
 Simplest graphics example I know.
 """
-import tkinter
 import tkinter as tk
 from tkinter import messagebox  # from tk import fails
 root = tk.Tk()

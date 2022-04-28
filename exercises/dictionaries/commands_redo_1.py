@@ -1,4 +1,4 @@
-# commands_redo_1.py   08Aug2021  crs, Author
+# commands_redo_1.py   26Aug2022  crs, Author
 # Example of dictionay as command list
 
 commands = {"up":1, "down":1, "left":1, "right":1}

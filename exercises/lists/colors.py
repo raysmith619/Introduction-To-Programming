@@ -6,17 +6,3 @@ colors = ["red", "orange", "yellow",
     "violet"]
 for color in colors:
     print(color)
-
-"""
->>> 
-= RESTART: C:/Users/raysm/workspace/python/
-IntroductionToProgramming/exercises/lists/colors.py
-red
-orange
-yellow
-green
-blue
-indigo
-violet
->>> 
-"""
