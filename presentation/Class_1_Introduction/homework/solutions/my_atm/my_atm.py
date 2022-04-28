@@ -1,4 +1,5 @@
-#my_atm.py  20-Sep-2021  crs, A few adjustments
+#my_atm.py  16-Jan-2022  crs, Check if not a number
+#           20-Sep-2021  crs, A few adjustments
 #           23-Jul-2021  crs, Author
 """
 MY_ATM – THE BEGINNINGS OF AN ATM MACHINE PROGRAM
@@ -25,7 +26,13 @@ while True:         # Default - go forever
     inp = input("Withdrawal AMOUNT:")
     if inp == "":
         break
-    amt = float(inp)
+    try:
+        amt = float(inp)
+    except ValueError:
+        print("Sorry", inp, "is not a valid number")
+        print("Please try again.")
+        continue
+    
     if amt < 0:
         deposit = -amt
         cust_balance += deposit
