@@ -3,6 +3,7 @@
     A growing square spiral
 """
 from turtle import *    # Bring in all turtle functions
+
 colors = ["red", "orange", "yellow",
           "green", "blue", "indigo",
           "violet"]

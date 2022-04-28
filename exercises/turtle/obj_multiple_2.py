@@ -6,24 +6,27 @@ ts = []
 colors = ["red", "orange", "yellow",
           "green", "blue", "indigo",
           "violet"]
-nt = len(colors)          
+nt = len(colors)
 for i in range(nt):
     t = turtle.Turtle()
-    t.color(colors[i%nt])
+    t.color(colors[i])
     t.right(i*30)
     t.forward(i*25+50)
     ts.append(t)
 
 print("Cycling through objects")
+width = 5
 angle = 45
-length = i*25
+linlen = 200
 for t in ts:
-    t.width(5)
+    t.width(width)
     t.right(angle)
-    t.forward(i*25+50)
+    t.forward(linlen)
 
+width = 8
+angle = 60
 for t in ts:
     t.width(8)
     t.right(angle)
-    t.forward(i*25+50)
+    t.forward(linlen)
 
