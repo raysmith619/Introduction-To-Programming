@@ -1,46 +1,21 @@
-#add_friends_fun.py    23Sep2020  crs, From add_friends
-# Simple List Example, using functions
+#add_friends_fun.py    20Sep2022  crs, simple add to list
 """
-Add to list
-Print list, if entry is empty, using a function
+Add to list, else print list
+  Loop
+     1. prompt for name
+     2. if "" print whole list
+     3. else add input to list
 """
-# Initial list of friends names
-my_friends = [
-    "Ray Smith",
-    "Phil Fontain",
-    "Rich Parker",
-    ]
-
-def print_friends():
-    # Simple loop to print out names from list
-    for name in my_friends:
-        print(name)
-    
-while True:             # No stop in sight
-    ans = input("Enter name[list all]:")
-    if ans == "":
-        print_friends()
+my_friends = []     # list of my friends' names
+while True:
+    inp = input("Enter name[list all]")
+    name = inp
+    if inp == "":
+        for name in my_friends:
+            print(name)
+    elif inp.upper()  == "BYE":
+        print("Quitting")
+        break
     else:
-        my_friends.append(ans)  # Add to list
-
-r'''
-Output:
-= RESTART: C:\Users\raysm\workspace\python\
-IntroductionToProgramming\exercises\functions\
-friends_family\simple_friends\add_friends_fun.py
-Enter name[list all]:
-Ray Smith
-Phil Fontain
-Rich Parker
-Enter name[list all]:tom
-Enter name[list all]:jo
-Enter name[list all]:egor
-Enter name[list all]:
-Ray Smith
-Phil Fontain
-Rich Parker
-tom
-jo
-egor
-Enter name[list all]:
-'''
+        my_friends.append(name)
+        

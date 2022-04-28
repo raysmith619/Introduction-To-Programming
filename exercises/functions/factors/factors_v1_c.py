@@ -1,4 +1,4 @@
-#factors_v1.py  06Dec2020  crs
+#factors_v1_c.py  06Dec2020  crs
 """
 Print each number's factors on same line
 + ask, print n
@@ -18,3 +18,4 @@ for n in range(1, ntop+1):
             print(fac, end="")
             nfac += 1
     print()             # End line
+    n += 1

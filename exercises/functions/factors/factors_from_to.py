@@ -6,12 +6,14 @@ Print each number's factors on same line
 + Using for loops
 + ask from, to
 """
+from math import *
+
 inp = input("Enter from[2]:")
 if inp == "":
     nfrom = 2      # Default[ENTER]
 else:
     nfrom = int(inp)
-deftop = nfrom + 9
+deftop = nfrom
 inp = input(f"Enter top[{deftop}]:")
 if inp == "":
     ntop = deftop      # Default[ENTER]
@@ -20,7 +22,7 @@ else:
 n = 2
 for n in range(nfrom, ntop+1):
     nf = 0     # number of factors so far
-    for nfact in range(2, n):   # don't include 1 or n
+    for nfact in range(2, int(sqrt(n))):   # don't include 1 or n
         if n % nfact == 0:
             if nf == 0:
                 print(n, ": ",sep = "", end="")               

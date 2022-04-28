@@ -17,3 +17,12 @@ list_friends()
 for fr in my_friends:
     if is_friend(fr):
         print(fr, "is a friend")
+    else:
+        print(fr, "is not a friend")
+
+print("Adding is some non-friends")
+for fr in my_friends + ["x","y"]:
+    if is_friend(fr):
+        print(fr, "is a friend")
+    else:
+        print(fr, "is not a friend")

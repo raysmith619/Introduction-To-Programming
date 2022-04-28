@@ -59,13 +59,14 @@ def test_add_one_friend():
     add_one_friend("joe")
 
 def test_add_friends():    
-    """ Test, or atleast exercise, add_friends function
+    """ Test, or at least exercise, add_friends function
     """
     global my_friends           # REQUIRED to allow us to modify
                                 # variable outside function
     print("\ntest_add_friends()")
-    my_friends = []             # Start test with empty list
+    my_friends = []             # Start with empty list
     add_friends("tom")
+    my_friends = []             # Start with empty list
     add_friends("joe", "mary", "ray")
     
 test_add_one_friend()
