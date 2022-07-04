@@ -13,6 +13,7 @@ def square(x=0, y=0, side=None, colr=None,
     :y: y position default: 0
     :side: length of side default: previous side
     :colr: square color default: previous
+    :wid: line width default: previous
     """
     global prev_color   # Don't create local copy
     global prev_side

@@ -40,7 +40,7 @@ def polygon(nside=None, x=None, y=None,
     global wid_prev
     
     if nside is None:
-        nside = side_prev
+        nside = nside_prev
     nside_prev = nside
     if x is None:
         x = x_prev + x_inc
@@ -57,12 +57,12 @@ def polygon(nside=None, x=None, y=None,
     if wid is None:
         wid = wid_prev
     wid_prev = wid
-    penup()
-    goto(x,y)
-    pendown()
     if setup:
         return
     
+    penup()
+    goto(x,y)
+    pendown()
     ext_angle = 360/nside
     x_min = x_max = xcor()         # Keep track of range
     y_min = y_max = ycor()

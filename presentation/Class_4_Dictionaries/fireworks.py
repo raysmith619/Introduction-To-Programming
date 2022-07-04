@@ -32,7 +32,8 @@ n_fwork = 10         # Number of fire works
 
 colors = ["red", "orange", "yellow",
           "green", "blue", "indigo", "violet",
-          "gray", "black", "pink"]
+          ###"gray", "black", "pink"
+          ]
 fw_size_min = window_size*.05
 fw_size_max = window_size/n_fwork
 firework_list = []      # List of firework objects

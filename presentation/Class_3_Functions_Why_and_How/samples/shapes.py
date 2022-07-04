@@ -2,7 +2,7 @@
 """
 Simple construction of shapes from components
 """
-import turtle as tu     # shorte local name
+import turtle as tu     # shorten local name
 
 x_prev = 0
 y_prev = 0
