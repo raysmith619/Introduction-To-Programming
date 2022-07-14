@@ -1,7 +1,15 @@
 # fireworks.py  19Feb2022  crs, Author
 """
 Simple fireworks like display
-Uses turtle
+
+Each firework's current state is stored in a dictionary.
+The fireworks' dictionaries are stored in the list
+fireworks_list.
+
+This program runs in an implicit infinite loop.
+This loop is driven by on turtle's ontimer function
+first called from fireworks_start.  ontimer is
+subsequently called from fireworks_update.
 """
 from turtle import *
 from random import randint, uniform
@@ -138,7 +146,7 @@ for i in range(n_fwork+1):
     firework = firework_create()
     firework_list.append(firework)
 
-# Start each firework
+# Startup fireworks
 # Separated from above to delay any action
 # till all fireworks are setup
 fireworks_start()

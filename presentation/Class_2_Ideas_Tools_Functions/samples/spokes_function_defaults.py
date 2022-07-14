@@ -9,7 +9,7 @@ colors = ["red", "orange", "yellow",
           "green", "blue", "indigo",
           "violet"]
 
-def spoke(spoke_len=300, colr="red", dot_size=40):
+def spoke(spoke_len=300, colr="orange", dot_size=40):
     """ Make line(spoke) with dot at end
     :len: length of line in pixels default:300
     :colr: color of spoke default: red
@@ -24,8 +24,9 @@ def spoke(spoke_len=300, colr="red", dot_size=40):
 
 #colors = 2*colors      # Double list
 nspoke = len(colors)
-spoke_len = 300
 for colr in colors:
     color(colr)
-    spoke(spoke_len, colr)  # Use default dot_size
+    spoke()             # all defaults
+    spoke(spoke_len=400, colr=colr, dot_size=100)
+    spoke(spoke_len=150, colr=colr)  # Use default dot_size
     right(360/nspoke)

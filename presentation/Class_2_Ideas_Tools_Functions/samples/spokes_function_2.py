@@ -1,4 +1,5 @@
-# spokes_function.py    25Feb2022  crs, from spokes.py
+# spokes_function_2.py  13Jul2022  crs, incease spoke len
+#                       25Feb2022  crs, from spokes.py
 # Display a star with spokes using list
 # Define function spoke to do spoke action
 
@@ -26,5 +27,5 @@ nspoke = len(colors)
 spoke_len = 300
 for i in range(nspoke):
     colr = colors[i%len(colors)]    # Wrap around list
-    spoke(spoke_len, colr, (i+1)*20)
+    spoke(spoke_len*(1+i/nspoke), colr, (i+1)*20)
     right(360/nspoke)

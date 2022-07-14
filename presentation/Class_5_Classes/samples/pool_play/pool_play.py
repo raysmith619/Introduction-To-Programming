@@ -99,7 +99,7 @@ def on_close():
 Enable clicking window close to do
 clean program stop
 """
-root.protocol("WM_DELETE_WINDOW", on_close)    
+#root.protocol("WM_DELETE_WINDOW", on_close)    
 
 
 """

@@ -6,7 +6,8 @@ Uses turtle for visual appeal
 import turtle as tu
 
 class Rectangle:
-    """ Defaults, updated with latest values
+    """ Defaults, updated with latest values,
+                used when default is previous value
     """
     x = 0
     y = 0
