@@ -174,7 +174,7 @@ class SquareLattice:
 Selftest for SquareLattice
 """
 if __name__ == "__main__":
-    nfig = 1000
+    nfig = 200
     colors = ["red", "orange", "yellow",
           "green", "blue", "indigo", "violet",
           "gray", "black", "pink"]

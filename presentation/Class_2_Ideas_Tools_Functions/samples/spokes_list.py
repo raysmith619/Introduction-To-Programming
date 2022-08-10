@@ -9,8 +9,8 @@ colors = ["red", "orange", "yellow",
           "green", "blue", "indigo",
           "violet"]
 
-#colors = 2*colors      # Double list
 nspoke = len(colors)
+#nspoke *= 2   # Go twice through list
 spoke_len = 300
 for i in range(nspoke):
     color(colors[i%len(colors)])    # Wrap around list
