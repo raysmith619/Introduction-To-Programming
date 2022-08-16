@@ -49,9 +49,8 @@ firework_list = []      # List of firework objects
 
 def firework_create():
     """ Create firework to initial state
-    :returns: new firework object
+    :returns: new firework object (dictionary)
     """
-    fw = {}
     fw_size = uniform(fw_size_min, fw_size_max)
     boarder = fw_size*1.1
     x = uniform(x_edge_min+boarder, x_edge_max-boarder)
@@ -65,20 +64,7 @@ def firework_create():
     firework['size_inc'] = fw_size*.01
     firework['color'] = colr
     return firework
-'''    
-def firework_setup(fw):
-    """ Setup firework initial display
-    :fw: firework object / dictionary
-    """
-    penup()
-    x,y  = fw['x'],fw['y']
-    size = fw['size']
-    colr = fw['color']
-    goto(x,y)
-    pendown()
-    dot(int(size), colr)
-    penup()
-'''
+
 def firework_start(fw):
     """ Start firework activity by setting event timer
     :fw: firework object / dictionary
@@ -112,8 +98,8 @@ def firework_update(fw):
         or y-radius <= y_edge_min or y+radius >= y_edge_max):
         # Then create replacement firework
         fw_new = firework_create()
-        fw.clear()
-        fw.update(fw_new)
+        fw.clear()          # remove all dictionary elements
+        fw.update(fw_new)   # Add elements from fw_new
         return
 
     size += size_inc
@@ -146,7 +132,7 @@ for i in range(n_fwork+1):
     firework = firework_create()
     firework_list.append(firework)
 
-# Startup fireworks
+# Start each firework
 # Separated from above to delay any action
 # till all fireworks are setup
 fireworks_start()
