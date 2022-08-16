@@ -1,0 +1,67 @@
+Python Programming Language
+Arithmetic / Math + - * / ** %
+constants
+variables : float int string
+        list: variables = [], ["a", "b", "c"]
+                list2.append("d")
+                list2[2] = "C"
+        dictionary: a set of key, value pairs
+                dict3 = {}
+                dict4 = {"a":1, "b":2, "c":3}
+                trades_people["joe"] = "plumber"
+                trades_people["mary"] = "chef"
+                print(f"mary is a {trades_people['mary']}")
+
+
+decisions
+    if, else elif
+        testing operators: == != >= <=
+    if x == y:
+        print()
+    elif x == z:
+        print()
+    elif x == w:
+        print()
+    else:
+        print()
+
+loops
+    while, for, break, continue True, False
+    while x > min:
+        process()
+        x -= 1      # shorthand for x = x - 1
+
+    for i in range(10):     # for i: 0,1,2,3,4,5,6,7,8,9
+        print(f"i is {i}")
+
+    for i in range(1,10,2): # for i: 1,3,5,7,9
+        print(f"i is {i}")
+
+ functions
+     def my_fun():
+         print("stuff")
+
+    my_fun()
+
+    def my_funs(a,b):
+       print(f"a={a} b={b})
+
+    my_funs(1,2)
+
+    def my_kfuns(a=1, b=2, c=3)
+        print(f"(a={a} b={b} c={c}")
+
+    my_kfuns()
+    my_kfuns(c=10, b=20)
+
+    def my_rfuns(a,b):
+        return a
+
+             
+    print(my_rfuns(3, 4))
+
+             
+    
+        
+        
+

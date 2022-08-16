@@ -1,0 +1,9 @@
+Computer Programming
+What is a program?
+
+Errors:  trn lft here
+     turn left right here
+
+     How to better my chance of a program that works?
+
+Iteration - break up in to successive parts.
