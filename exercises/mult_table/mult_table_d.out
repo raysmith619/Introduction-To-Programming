@@ -1,0 +1,71 @@
+
+= RESTART: C:/Users/raysm/Desktop/intro_prog/exercises/mult_table/mult_table_d.py
+Multiplication Table Ranges
+horz start [1]:
+horz max [6]:
+Horizontal 1 to 6
+vert start [1]:
+vert max [6]:
+Vertical 1 to 6
+Multiplication Table  1 to 6 by 1 to 6
+
+*  1  2  3  4  5  6 
+ .-- -- -- -- -- -- 
+1| 1  2  3  4  5  6 
+2| 2  4  6  8 10 12 
+3| 3  6  9 12 15 18 
+4| 4  8 12 16 20 24 
+5| 5 10 15 20 25 30 
+6| 6 12 18 24 30 36 
+
+= RESTART: C:/Users/raysm/Desktop/intro_prog/exercises/mult_table/mult_table_d.py
+Multiplication Table Ranges
+horz start [1]:999999
+horz max [1000004]:1000001
+Horizontal 999999 to 1000001
+vert start [999999]:
+vert max [1000001]:
+Vertical 999999 to 1000001
+Multiplication Table  999999 to 1000001 by 999999 to 1000001
+
+   *           999999       1000000       1000001 
+       .------------- ------------- ------------- 
+ 999999| 999998000001  999999000000  999999999999 
+1000000| 999999000000 1000000000000 1000001000000 
+1000001| 999999999999 1000001000000 1000002000001 
+
+= RESTART: C:/Users/raysm/Desktop/intro_prog/exercises/mult_table/mult_table_d.py
+Multiplication Table Ranges
+horz start [1]:-2
+horz max [3]:2
+Horizontal -2 to 2
+vert start [-2]:
+vert max [2]:
+Vertical -2 to 2
+Multiplication Table  -2 to 2 by -2 to 2
+
+*  -2 -1  0  1  2 
+  .-- -- -- -- -- 
+-2| 4  2  0 -2 -4 
+-1| 2  1  0 -1 -2 
+ 0| 0  0  0  0  0 
+ 1|-2 -1  0  1  2 
+ 2|-4 -2  0  2  4 
+
+= RESTART: C:/Users/raysm/Desktop/intro_prog/exercises/mult_table/mult_table_d.py
+Multiplication Table Ranges
+horz start [1]:-1
+horz max [4]:1
+Horizontal -1 to 1
+vert start [-1]:minus one
+minus one is not a valid integer please try again
+vert start [-1]:
+vert max [1]:
+Vertical -1 to 1
+Multiplication Table  -1 to 1 by -1 to 1
+
+*  -1  0  1 
+  .-- -- -- 
+-1| 1  0 -1 
+ 0| 0  0  0 
+ 1|-1  0  1 
