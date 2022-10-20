@@ -13,7 +13,7 @@ Setup test file(s): "test.notes",  "people.notes"
             Support case insensitive match (Student, STUDENT)
     3.	Prompt for, then accept file name, pattern
     4.	[Extra Credit]  Support multiple text patterns
-
++ print lines with pattern
 """
 file_name = "test.notes"
 pattern = "student"
