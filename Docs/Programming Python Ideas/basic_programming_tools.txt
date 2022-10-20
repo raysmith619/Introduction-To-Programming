@@ -1,0 +1,213 @@
+basic_programming_tools.txt  04Oct2022  crs
+cmd
+Python 3.9.4 (tags/v3.9.4:1f2e308, Apr  6 2021, 13:40:21) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> # Python Tools
+
+>>> # Comments - for the programmer and friends
+>>> # Try to be concise, complete, correct
+
+>>> # print function - to print things
+>>> # Used in progams
+>>> print("This prints stuff")
+This prints stuff
+>>> print("Strings like:","this", "Numbers like:", 5)
+Strings like: this Numbers like: 5
+>>>
+>>> # Calculation / Arithmetic
+>>> + adds numbers
+>>> 1+2
+3
+>>> # Calculation/Manipulation with strings
+>>> + joins/concatinates strings
+>>> "The" + " quick" + " brown" + " fox"
+'The quick brown fox'
+>>>
+>>> # Variables - hold things for later use
+>>> # numerical
+>>> var1 = 3
+>>> var1
+3
+>>> var1 + 3
+6
+>>> # Lazyness is the mother of invention
+
+>>> # var += value ==> var = var + value
+>>> var1 += 1
+>>> var1
+7
+>>>
+>>>
+>>> # character strings
+>>> story = ""
+>>> story
+''
+>>> # + concatinates strings
+>>> story = story + "Once"
+>>> story
+'Once'
+>>> story = story + " apon"
+>>> story
+'Once apon'
+>>> story = story + " a"
+>>> story
+'Once apon a'
+>>> story = story + " time"
+>>> story
+'Once apon a time'
+>>> story += " there"
+>>> story
+'Once apon a time there'
+>>> story += " was"
+>>> story
+'Once apon a time there was'
+
+>>> # Decisions
+>>> a = 1
+>>> b = 2
+>>> if a == 1:
+...     print("a==1")
+...
+a==1
+>>> if a < b:
+...     print("a:",a,"b:",b,"a<b")
+...
+a: 1 b: 2 a<b
+
+>>> # repition - loop
+>>> # while - loop while condition/test is true
+>>> n = 1
+>>> end = 5
+>>> while n < end:
+...     print("n:", n, "end:", end)
+...     n += 1
+...
+n: 1 end: 5
+n: 2 end: 5
+n: 3 end: 5
+n: 4 end: 5
+
+
+>>> # Best to use files for more complex examples
+
+
+
+
+# Windows-KEY then type cmd , ENTER to open Windows command shell
+
+Microsoft Windows [Version 10.0.19044.2006]
+(c) Microsoft Corporation. All rights reserved.
+
+# Move to our work place (hopping we start just above Desktop)
+C:\Users\raysm>cd Desktop
+
+C:\Users\raysm\Desktop>cd one_session_braille
+
+C:\Users\raysm\Desktop\one_session_braille>cd my_work
+
+C:\Users\raysm\Desktop\one_session_braille\my_work>cd 01_intro
+
+C:\Users\raysm\Desktop\one_session_braille\my_work\01_intro>python hello_world.py
+Hello World
+
+
+C:\Users\raysm\Desktop\one_session_braille\my_work\01_intro>
+C:\Users\raysm\Desktop\one_session_braille\my_work\01_intro>notepad hello_world.py
+
+# saveAs to new name
+# make changes
+# save
+# ALT-TAB to Command Prompt window
+# python ...newname...
+
+C:\Users\raysm\Desktop\one_session_braille\my_work\01_intro>
+
+
+>>>#list - an ordered group of things - strings, numbers, lists
+>>> lista=["a","b","c"]
+>>> lista
+['a', 'b', 'c']
+>>> print(lista)
+['a', 'b', 'c']
+>>> lista[1]
+'b'
+>>> lista[0]
+'a'
+>>> lista[-1]
+'c'
+>>> lista.append("d")
+>>> lista
+['a', 'b', 'c', 'd']
+>>>
+>>> # for - looping through lists
+>>> listn = [1,2,3,4]
+>>> for n in listn:
+...     print("n:", n)
+...
+n: 1
+n: 2
+n: 3
+n: 4
+>>> listn.append(8)
+>>> for n in listn:
+...     print("n:",n)
+...
+n: 1
+n: 2
+n: 3
+n: 4
+n: 8
+>>>
+>>> while len(lista)>0:
+...     print(len(lista),lista)
+...     got = lista.pop()
+...     print("poped:", got)
+...
+4 ['a', 'b', 'c', 'd']
+poped: d
+3 ['a', 'b', 'c']
+poped: c
+2 ['a', 'b']
+poped: b
+1 ['a']
+poped: a
+>>>#range - list(like a list) of numbers
+>>> for i in range(5):
+...     print("i:", i)
+...
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+>>>>>> for n in range(1,5+1):
+...     print("n:",n)
+...
+n: 1
+n: 2
+n: 3
+n: 4
+n: 5
+>>>>>> for n in range(1,5,2):
+...     print("n:",n)
+...
+n: 1
+n: 3
+>>> help(range)
+Help on class range in module builtins:
+
+class range(object)
+ |  range(stop) -> range object
+ |  range(start, stop[, step]) -> range object
+ |
+ |  Return an object that produces a sequence of integers from start (inclusive)
+ |  to stop (exclusive) by step.  range(i, j) produces i, i+1, i+2, ..., j-1.
+ |  start defaults to 0, and stop is omitted!  range(4) produces 0, 1, 2, 3.
+ |  These are exactly the valid indices for a list of 4 elements.
+ |  When step is given, it specifies the increment (or decrement).
+ |
+ |  Methods defined here:
+...lots more...
+# For Help
+# use help(....)
+#  Use quoted "key word" for things like "if", "else", "while", "for"
