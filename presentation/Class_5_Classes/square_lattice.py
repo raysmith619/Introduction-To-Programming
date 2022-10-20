@@ -13,7 +13,6 @@ class LSquare:
 
         """ Setup a lattice square
         :lattice: the lattice of which we are apart
-        :turtle: turtle instance default: create instance
         :screen: turtle screen default: create instance
         :ix: - x square offset  (zero based from left side)
         :iy: - y square offset (zero based from bottom)
