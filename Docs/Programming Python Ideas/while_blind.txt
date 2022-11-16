@@ -1,0 +1,171 @@
+	while_blind.txt
+Introduction to a bit of code for the blind with JAWS or NVDA - spoken output
+Concentrating on while, random, time
+
+Setting up Environment variable PATH so "python" command works in Microsoft CMD shell:
+Start python:
+>>> import sys
+>>> import os
+>>> print(os.path.dirname(sys.executable))
+C:\Users\raysm\AppData\Local\Programs\Python\Python39
+>>>
+SAVE the following command line(with YOUR PATH) in a .bat file:
+
+set PATH=%PATH%;C:\Users\raysm\AppData\Local\Programs\Python\Python39
+
+PASTE the line into your CMD shell window
+TEST for success by entering the following command in the CMD window: 
+python -V
+Python 3.9.4
+
+Open File Explorer
+copy Desktop icon to cmd shell
+
+In cmd:
+cd (desktop)
+cd one_session\my_work
+
+ADDING AUDIO FEEDBACK SUPPORT
+AFTER insuring python is in path as above.
+pyttsx3 module
+cd <to python directory e.g. C:\Users\raysm\AppData\Local\Programs\Python\Python39
+
+pip install pyttsx3
+
+e.g.
+C:\Users\raysm>cd Desktop\one_session_braille\my_work
+dir *.py
+python 01_intro\hello_world.py
+
+ 
+Programs to write, save, and run:
+Use Notepad for program editor.
+Save as typee: All Files (*.*)
+Run programs: python program_file_name.py
+
+
+while_n.py
+#while_n.py
+n_max = 9
+n = 0
+while n < n_max:
+        n += 1
+        print(n)
+
+
+while_random.py
+#while_random.py
+import random
+n_max = 9
+n = 0
+while n < n_max:
+	n += 1
+	num = random.randint(1,2)
+	print(num)
+
+
+while_heads_tails.py
+#while_heads_tail.py
+import random
+n_max = 9
+n = 0
+while n < n_max:
+        n += 1
+        num = random.randint(1,2)
+        if num == 1:
+                ht="heads"
+        else:
+                ht="tails"
+        print(ht)
+
+
+
+while_heads_tails_count.py
+#while_heads_tails_count.py
+import random
+n_heads = 0
+n_tails = 0
+n_max = 9
+n = 0
+while n < n_max:
+        n += 1
+        num = random.randint(1,2)
+        if num == 1:
+                ht="heads"
+                n_heads += 1
+        else:
+                ht="tails"
+                n_tails += 1
+        print(ht, "  NOW We have:", n_heads,"heads", n_tails, "tails")
+
+
+heads_tails_wait.py
+#while_heads_wait.py
+import random
+import time
+n_heads = 0
+n_tails = 0
+n_max = 9
+n = 0
+while n < n_max:
+	n += 1
+	num = random.randint(1,2)
+	if num == 1:
+		ht="heads"
+		n_heads += 1
+	else:
+		ht="tails"
+		n_tails += 1
+	print("Got", ht, "  NOW We have:", n_heads,"heads", n_tails, "tails")
+	time.sleep(4)
+
+
+#heads_tail_percent.py
+import random
+import time
+n_heads = 0
+n_tails = 0
+n_max = 9
+n = 0
+while n < n_max:
+	n += 1
+	num = random.randint(1,2)
+	if num == 1:
+		ht="heads"
+		n_heads += 1
+	else:
+		ht="tails"
+		n_tails += 1
+	print(ht, "  NOW We have:", n_heads,"heads",
+              n_tails, "tails")
+	hperc = int(n_heads/(n_heads+n_tails)*100)
+	time.sleep(1)
+	print(hperc, "percent heads")
+	time.sleep(3)
+
+
+#heads_tails_percent_2.py
+import random
+import time
+n_heads = 0
+n_tails = 0
+n_max = 9
+n = 0
+while n < n_max:
+	n += 1
+	num = random.randint(1,2)
+	if num == 1:
+		ht="heads"
+		n_heads += 1
+	else:
+		ht="tails"
+		n_tails += 1
+	print("We got", ht)
+	time.sleep(1)
+	print("NOW We have:", n_heads,"heads",
+              n_tails, "tails")
+	hperc = int(n_heads/(n_heads+n_tails)*100)
+	time.sleep(1)
+	print(hperc, "percent heads")
+	time.sleep(3)
+
