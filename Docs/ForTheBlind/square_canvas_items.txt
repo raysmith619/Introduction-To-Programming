@@ -1,0 +1,72 @@
+File: square_show_canvas.py  Date: 2023-03-02 10:51  User: raysm
+ 
+,,ggggggggg
+,,gg,,,,,,g
+,,gg,,,,,,g
+,,gg,,,,,,g
+,,gg,,,,,,g
+,,gg,,,,,,g
+,,ggggggggg
+
+ canvas_items - File: square_show_canvas.py  Date: 2023-03-02 10:51  User: raysm
+  1: image [0.0, 0.0]
+     activeimage ('activeimage', '', '', '', '')
+     anchor ('anchor', '', '', 'center', 'center')
+     disabledimage ('disabledimage', '', '', '', '')
+     image ('image', '', '', '', '')
+     state ('state', '', '', '', '')
+     tags ('tags', '', '', '', '')
+  4: line [0.0, -0.0, 200.0, -0.0, 200.0, 200.0, 0.0, 200.00000000000003, -3.6739403974420595e-14, 2.842170943040401e-14]
+     activedash ('activedash', '', '', '', '')
+     activefill ('activefill', '', '', '', '')
+     activestipple ('activestipple', '', '', '', '')
+     activewidth ('activewidth', '', '', '0.0', '0.0')
+     arrow ('arrow', '', '', 'none', 'none')
+     arrowshape ('arrowshape', '', '', '8 10 3', '8 10 3')
+     capstyle ('capstyle', '', '', 'butt', 'round')
+     fill ('fill', '', '', 'black', 'green')
+     dash ('dash', '', '', '', '')
+     dashoffset ('dashoffset', '', '', '0', '0')
+     disableddash ('disableddash', '', '', '', '')
+     disabledfill ('disabledfill', '', '', '', '')
+     disabledstipple ('disabledstipple', '', '', '', '')
+     disabledwidth ('disabledwidth', '', '', '0.0', '0.0')
+     joinstyle ('joinstyle', '', '', 'round', 'round')
+     offset ('offset', '', '', '0,0', '0,0')
+     smooth ('smooth', '', '', '0', '0')
+     splinesteps ('splinesteps', '', '', '12', '12')
+     state ('state', '', '', '', '')
+     stipple ('stipple', '', '', '', '')
+     tags ('tags', '', '', '', '')
+     width ('width', '', '', '1.0', '2.0')
+  2: line [0.0, 0.0, 0.0, 0.0]
+     fill ('fill', '', '', 'black', '')
+     width ('width', '', '', '1.0', '2.0')
+  3: polygon [-3.6739403974420595e-14, 2.842170943040401e-14, -5.000000000000035, 9.00000000000003, -3.5453524835315876e-14, 7.000000000000028, 4.999999999999965, 9.000000000000027]
+     activedash ('activedash', '', '', '', '')
+     activefill ('activefill', '', '', '', '')
+     activeoutline ('activeoutline', '', '', '', '')
+     activeoutlinestipple ('activeoutlinestipple', '', '', '', '')
+     activestipple ('activestipple', '', '', '', '')
+     activewidth ('activewidth', '', '', '0.0', '0.0')
+     dash ('dash', '', '', '', '')
+     dashoffset ('dashoffset', '', '', '0', '0')
+     disableddash ('disableddash', '', '', '', '')
+     disabledfill ('disabledfill', '', '', '', '')
+     disabledoutline ('disabledoutline', '', '', '', '')
+     disabledoutlinestipple ('disabledoutlinestipple', '', '', '', '')
+     disabledstipple ('disabledstipple', '', '', '', '')
+     disabledwidth ('disabledwidth', '', '', '0.0', '0.0')
+     fill ('fill', '', '', 'black', 'green')
+     joinstyle ('joinstyle', '', '', 'round', 'round')
+     offset ('offset', '', '', '0,0', '0,0')
+     outline ('outline', '', '', '', 'green')
+     outlineoffset ('outlineoffset', '', '', '0,0', '0,0')
+     outlinestipple ('outlinestipple', '', '', '', '')
+     smooth ('smooth', '', '', '0', '0')
+     splinesteps ('splinesteps', '', '', '12', '12')
+     state ('state', '', '', '', '')
+     stipple ('stipple', '', '', '', '')
+     tags ('tags', '', '', '', '')
+     width ('width', '', '', '1.0', '1.0')
+ 
