@@ -1,7 +1,10 @@
+# wx_notes_graphics.py 24Jun2023  crs, from notes_graphics.py
+#
 # notes_graphics.py 19Oct2022  crs, from notes_e.py
 #                   13Oct2022  crs, from notes_3d
 #                   26-Jul-2018
 """
+wxPython version
 Demonstration of a simple text data base with
 a simple tkinter graphics interface.
 This program was initially developed with a series
@@ -15,9 +18,9 @@ containing the designated pattern.  The pattern is
 a regular expression.
 """
 import re
-import tkinter as tk
+import wx
 
-from notes_data_win import NotesDataWin
+from wx_notes_data_win import NotesDataWin
 
 # Default values
 def_file_name = "test.notes"
@@ -40,7 +43,7 @@ def file_open_proc(file_name):
     
     except IOError :
         msg = f"Can't open file {file_name}"
-        ndw.info_message("IOError", msg)
+        ndw.error_message(msg)
         finp = None
     return finp
 
@@ -63,10 +66,11 @@ def pattern_search_proc(file_name, pattern):
         if (match):
             ndw.list_print(line)
 
-    
+app = wx.App()
+
 ndw = NotesDataWin(file_name=def_file_name,
              pattern=def_pattern,
              file_open_proc=file_open_proc,
              pattern_search_proc=pattern_search_proc)
 
-tk.mainloop()
+app.MainLoop()

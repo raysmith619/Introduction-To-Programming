@@ -1,0 +1,52 @@
+state	capital	population of capital: census	population of capital: estimated
+
+Alabama	Montgomery	(2020) 200,603	(2021 est.) 198,665
+Alaska	Juneau	(2020) 32,255	(2021 est.) 31,973
+Arizona	Phoenix	(2020) 1,608,139	(2021 est.) 1,624,569
+Arkansas	Little Rock	(2020) 202,591	(2021 est.) 201,998
+California	Sacramento	(2020) 524,943	(2021 est.) 525,041
+Colorado	Denver	(2020) 715,522	(2021 est.) 711,463
+Connecticut	Hartford	(2020) 121,054	(2021 est.) 120,576
+Delaware	Dover	(2020) 39,403	(2021 est.) 38,992
+Florida	Tallahassee	(2020) 196,068	(2021 est.) 197,102
+Georgia	Atlanta	(2020) 498,715	(2021 est.) 496,461
+Hawaii	Honolulu	(2020) 350,964	(2021 est.) 345,510
+Idaho	Boise	(2020) 235,684	(2021 est.) 237,446
+Illinois	Springfield	(2020) 114,394	(2021 est.) 113,394
+Indiana	Indianapolis	(2020) 887,642	(2021 est.) 882,039
+Iowa	Des Moines	(2020) 214,133	(2021 est.) 212,031
+Kansas	Topeka	(2020) 126,587	(2021 est.) 125,963
+Kentucky	Frankfort	(2020) 28,602	(2021 est.) 28,595
+Louisiana	Baton Rouge	(2020) 227,470	(2021 est.) 222,185
+Maine	Augusta	(2020) 18,899	(2021 est.) 18,968
+Maryland	Annapolis	(2020) 40,812	(2021 est.) 40,687
+Massachusetts	Boston	(2020) 675,647	(2021 est.) 654,776
+Michigan	Lansing	(2020) 112,644	(2021 est.) 112,684
+Minnesota	Saint Paul	(2020) 311,527	(2021 est.) 307,193
+Mississippi	Jackson	(2020) 153,701	(2021 est.) 149,761
+Missouri	Jefferson City	(2020) 43,228	(2021 est.) 42,772
+Montana	Helena	(2020) 32,091	(2021 est.) 33,120
+Nebraska	Lincoln	(2020) 291,082	(2021 est.) 292,657
+Nevada	Carson City	(2020) 58,639	(2021 est.) 58,993
+New Hampshire	Concord	(2020) 43,976	(2021 est.) 44,006
+New Jersey	Trenton	(2020) 90,871	(2021 est.) 90,457
+New Mexico	Santa Fe	(2020) 87,505	(2021 est.) 88,193
+New York	Albany	(2020) 99,224	(2021 est.) 98,617
+North Carolina	Raleigh	(2020) 467,665	(2021 est.) 469,124
+North Dakota	Bismarck	(2020) 73,622	(2021 est.) 74,138
+Ohio	Columbus	(2020) 905,748	(2021 est.) 906,528
+Oklahoma	Oklahoma City	(2020) 681,054	(2021 est.) 687,725
+Oregon	Salem	(2020) 175,535	(2021 est.) 177,723
+Pennsylvania	Harrisburg	(2020) 50,099	(2021 est.) 50,135
+Rhode Island	Providence	(2020) 190,934	(2021 est.) 189,692
+South Carolina	Columbia	(2020) 136,632	(2021 est.) 137,541
+South Dakota	Pierre	(2020) 14,091	(2021 est.) 14,000
+Tennessee	Nashville	(2020) 689,447	(2021 est.) 678,851
+Texas	Austin	(2020) 961,855	(2021 est.) 964,177
+Utah	Salt Lake City	(2020) 199,723	(2021 est.) 200,478
+Vermont	Montpelier	(2020) 8,074	(2021 est.) 8,002
+Virginia	Richmond	(2020) 226,610	(2021 est.) 226,604
+Washington	Olympia	(2020) 55,605	(2021 est.) 55,919
+West Virginia	Charleston	(2020) 48,864	(2021 est.) 48,018
+Wisconsin	Madison	(2020) 269,840	(2021 est.) 269,196
+Wyoming	Cheyenne	(2020) 65,132	(2021 est.) 65,051

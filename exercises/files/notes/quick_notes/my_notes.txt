@@ -1,0 +1,6 @@
+my_notes.txt
+Ray     Watertown
+Arlene  Watertown
+Willow  Watertown
+Kyle    Perkins
+Prasha  Perkins
