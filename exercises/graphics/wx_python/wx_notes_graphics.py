@@ -19,6 +19,7 @@ a regular expression.
 """
 import re
 import wx
+import os
 
 from wx_notes_data_win import NotesDataWin
 
@@ -42,7 +43,7 @@ def file_open_proc(file_name):
         finp = open(file_name)
     
     except IOError :
-        msg = f"Can't open file {file_name}"
+        msg = f"Can't open file {os.path.abspath(file_name)}"
         ndw.error_message(msg)
         finp = None
     return finp
