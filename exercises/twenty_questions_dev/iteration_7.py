@@ -54,3 +54,4 @@ while True:
     if inp == "N" or inp == "n":
         break
 print("See you next time.")
+15

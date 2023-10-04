@@ -1,0 +1,11 @@
+Goal: Develop a simple information display program
+
+A program to facilitate selecting a file with
+information such as United States states, capitals, etc.
+To this we support selecting a pattern such as "Mass"
+and the program will display data about Massachussetts.
+
+Start with a demonstration of a complete example
+ notes_3e.py
+ Major functional view.
+ 

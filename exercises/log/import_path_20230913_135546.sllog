@@ -1,0 +1,26 @@
+ 20230913_135546 Trace levels from properties file C:\Users\raysm\vscode\Introduction-To-Programming\Introduction-To-Programming\exercises\import_path.properties
+ 20230913_135546_005 loadTraceFlags: decpl,stdouthasts,list_props,prop_change,trace_flags
+ 20230913_135546_005 decpl = True
+ 20230913_135546_021 stdouthasts = True
+ 20230913_135546_021 list_props = True
+ 20230913_135546_021 prop_change = True
+ 20230913_135546_021 trace_flags = True
+ 20230913_135546_021 Creating Log File Name: C:\Users\raysm\vscode\Introduction-To-Programming\Introduction-To-Programming\exercises\log\import_path_20230913_135546.sllog
+ 20230913_135546_021 Trace levels from properties file C:\Users\raysm\vscode\Introduction-To-Programming\Introduction-To-Programming\exercises\import_path.properties
+ 20230913_135546_021 loadTraceFlags: decpl,stdouthasts,list_props,prop_change,trace_flags
+ 20230913_135546_021 decpl = True
+ 20230913_135546_021 stdouthasts = True
+ 20230913_135546_021 list_props = True
+ 20230913_135546_026 prop_change = True
+ 20230913_135546_027 trace_flags = True
+ 20230913_135546_027 Hello World
+ 20230913_135546_029 No differences
+ 20230913_135546_030 Saving properties file  C:\Users\raysm\vscode\Introduction-To-Programming\Introduction-To-Programming\exercises\import_path.properties  20230913_135546
+ 20230913_135546_032 Trace levels from properties file C:\Users\raysm\vscode\Introduction-To-Programming\Introduction-To-Programming\exercises\import_path.properties
+ 20230913_135546_032 loadTraceFlags: decpl,stdouthasts,list_props,prop_change,trace_flags
+ 20230913_135546_032 decpl = True
+ 20230913_135546_032 stdouthasts = True
+ 20230913_135546_032 list_props = True
+ 20230913_135546_032 prop_change = True
+ 20230913_135546_032 trace_flags = True
+ 20230913_135546_032 Closing log file C:\Users\raysm\vscode\Introduction-To-Programming\Introduction-To-Programming\exercises\log\import_path_20230913_135546.sllog

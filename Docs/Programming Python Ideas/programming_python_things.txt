@@ -126,6 +126,7 @@ for position in positions:
     print(position, ":", positions[position])
           
                                         
-
+Beginning Python
+https://www.youtube.com/watch?v=b093aqAZiPU
 
 

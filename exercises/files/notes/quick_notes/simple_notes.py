@@ -1,4 +1,4 @@
-# simple_notes.py  22Jun2023  crs, Author
+# simple_notes.py  20Jul2023  crs, Author
 """
 list lines found in file
 """
@@ -7,13 +7,11 @@ file_name = "us_states.txt"
 inp = input("Enter Notes File["+file_name+"]:")
 if inp != "":
     file_name = inp
-while True:
-    inp = input("Enter pattern:")
-    if inp != "":
-        pattern = inp
-        break
+inp = input("Enter pattern:")
+if inp != "":
+    pattern = inp
 
 with open(file_name) as finp:
     for line in finp:
         if line.find(pattern) > -1:
-            print(line, end="")     # Lines already have endings
+            print(line, end="")     # Already have endings
