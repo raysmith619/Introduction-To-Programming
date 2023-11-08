@@ -1,0 +1,27 @@
+Most Confusing Compuer programming / Python Topic
+
+figuring out which function to use is the most confusig
+if then, while True key words
+
+
+If one writes a long Python program using multiple PY files
+(each file covering a different aspect) what type of python
+code/file would one create to run these files one after the
+other like: PART_1.PY followed by PART_2.PY which is then
+followed by PART_3.PY
+
+
+
+
+
+
+
+
+
+What to do you want most to learn / be covered?
+
+Maybe more with test modules
+
+Last week someone asked about the use of Python in Natural
+language Processing(NLP)
+– that would interest me as well.

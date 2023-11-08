@@ -1,0 +1,23 @@
+00:59:39	Janet Spillert:	PRESENT
+00:59:46	Bill:	5
+00:59:49	Janet Spillert:	I got 3 things
+00:59:54	Yair F:	4
+00:59:59	Alina Orasanu:	5
+01:00:00	Ken M:	did hal dozen items
+01:00:07	Soham Samanta:	6
+01:00:10	Masoud Loeian:	10
+01:00:12	FATMA VATANSEVER:	i got 7 things
+01:00:58	Alina Orasanu:	I don't remember how to write an if, else function
+01:01:19	Masoud Loeian:	How can we see the variables that we have defined in our workspace?
+01:02:58	Katherine Tyson:	Present
+01:03:30	Katie:	Present
+01:03:36	Soham Samanta:	Soham Present
+01:03:40	Lakpa Sherpa:	this is lecture session right?
+01:04:15	Jamie B:	Enter
+01:17:32	Yair F:	Can I suggest people mute themselves when they're not talking? otherwise we hear noises and conversations.
+01:18:54	Jamie B:	agreed, Ken M, I think your mike is still on.
+01:38:29	Yujin Kim:	I used “while”
+01:38:34	Katie:	successfully tried
+01:39:06	Carl Karandjeff:	My dog deleted my homework.
+02:46:30	Lakpa S:	thank you sir.
+perl -ane 'if (/^\d\d:\S+\s+(\S[^:]*):/) { print("$1\n")}' 04Jun2020_chat.txt |sort|uniq|wc

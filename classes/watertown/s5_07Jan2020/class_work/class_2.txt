@@ -1,0 +1,35 @@
+#class_2.txt
+beginning exercises - exerciseDDMMMYYYY.py [10 min]
+Make an example of everything
+
+Slides: 13, 20: Review Homework python_introduction.py
+Any Questions? [10 min]
+
+Slides: 23-28: Review Twenty Questions Project first.py
+                 [5 min]
+Slides: 21, 22: Introduction Lists, Dictionary  [10 min]
+
+
+Slides: 34-40: Programming Ideas [15 min]
+
+Slides: 41-42: Python Tools Review  [5 min]
+
+Slides:  47-65: Review / Reinforcement  [10 min]
+
+Slides: 66: Exercise: timestable.py  [10 min]
+Slides: 67-69: Exercise:timestableN.py  [10 min]
+Slides: 69: Exercise left to the reader:timestableNbyN.py
+
+Slides: 70 : Second Iteration of Twenty Questions Project
+             Exercise: second.py  [10 min]
+Slides: 71: Our second.py version
+
+Slides: 72-74: Thinking of Versions  [5 min]
+
+Slides: 75-78: More Python Review/Reinforcement
+
+Slides: 79-80: import, Using the Web for help
+
+Slides: 81: Exercises: Iterations third.py, fouth.py
+
+Slides: 82-92: Functions

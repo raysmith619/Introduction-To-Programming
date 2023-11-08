@@ -12,10 +12,7 @@ import wx
 
 cv_width = 300
 cv_height = cv_width*2
-colors = ["red","orange","yellow",
-          "green","blue","indigo",
-          "violet"]
-color_idx = 0
+
 
 class CanvasFrame(wx.Frame):
     def __init__(self, *args, **kw):
@@ -63,12 +60,9 @@ class CanvasFrame(wx.Frame):
         dc.SetBrush(wx.Brush("blue", wx.SOLID))
         dc.DrawLine(x_min,y_max, x_max,y_min)
 
-        color_idx = (color_idx+1)%len(colors)
-        color_el = colors[color_idx]
-        dc.SetPen(wx.Pen(color_el, style=wx.SOLID))
-        dc.SetBrush(wx.Brush(color_el, wx.SOLID))
+        dc.SetPen(wx.Pen("orange", style=wx.SOLID))
+        dc.SetBrush(wx.Brush("orange", wx.SOLID))
         dc.DrawEllipse(x_mid, y_min, x_max-x_mid, y_max-y_min)
-        print(f"color_idx:{color_idx} color_el:{color_el}")
         print(f"DrawEllipse({x_mid},{y_mid},{x_max-x_mid}, {y_max-y_min})")
     
         x_q = int((x_min+x_mid)/2)

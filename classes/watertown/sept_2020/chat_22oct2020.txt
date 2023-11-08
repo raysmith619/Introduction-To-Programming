@@ -1,0 +1,34 @@
+From Nadia Beltchev to Me:  (Privately) 06:02 PM
+I sent you an email, but both confusing issues were already addressed by you - thanks!
+From Me to Nadia Beltchev:  (Privately) 06:02 PM
+Any other issues?
+From Nadia Beltchev to Me:  (Privately) 06:03 PM
+not at this time.
+From Liz Gregory to Everyone:  06:07 PM
+figuring out which function to use is the most confusing
+From Nadia Beltchev to Everyone:  06:07 PM
+If one writes a long Python program using multiple PY files (each file covering a different aspect) what type of python code/file would one create to run these files one after the other like: PART_1.PY followed by PART_2.PY which is then followed by PART_3.PY
+From Samantha Lipsky to Everyone:  06:08 PM
+Maybe more with test modules
+From Nadia Beltchev to Everyone:  06:11 PM
+Last week someone asked about the use of Python in NLP – that would interest me as well.yesNatural Language Processing
+From Mary M. to Everyone:  06:11 PM
+Yes, that's what NLP means
+From Liz Gregory to Everyone:  06:17 PM
+if then, while truekey words
+From Liz Gregory to Everyone:  06:25 PM
+yes
+From Mary M. to Everyone:  06:26 PM
+The google search recommendation was helpful. Thank you.
+From Nadia Beltchev to Everyone:  06:36 PM
+I do not find these slides on classes in my PowerPoint presentation
+From Nadia Beltchev to Everyone:  07:35 PM
+Could you go over running multiple files?for example you could split off section of list of friends from person_group fileand have person_group file call the list of persons/friends that could be say 100 people long
+From Mary M. to Everyone:  07:50 PM
+Thank you for teaching this class to us !
+From Robert McCloskey to Everyone:  07:50 PM
+thanks so much
+From Andrew Chin to Everyone:  07:51 PM
+Thank you very much Ray
+From Samantha Lipsky to Everyone:  07:51 PM
+Thank you!

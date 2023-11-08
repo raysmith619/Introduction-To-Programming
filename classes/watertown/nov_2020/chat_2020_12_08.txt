@@ -1,0 +1,16 @@
+From suri to Me:  (Privately) 06:03 PM
+This is my first class
+From Marta Flores to Everyone:  07:23 PM
+Traceback (most recent call last):  File "/Users/martaflores/Desktop/turtle_square_mdf.py", line 16, in <module>    right_turn(col, side, angle)NameError: name 'right_turn' is not defined
+From Marta Flores to Everyone:  07:32 PM
+The Watertown Free Public Library lends laptops.
+From Hugo Hsiung to Everyone:  07:39 PM
+rainbow = ["red", "orange", "yellow", "green", "blue", "purple"]color(rainbow)
+From Maverick French to Everyone:  07:39 PM
+doubled rainbowddddddddddd
+From Erikb to Everyone:  07:48 PM
+Thank you for class this evening.  Need to sign out now. See you next week.
+From Marta Flores to Everyone:  07:49 PM
+PowerPoint?
+From Maverick French to Everyone:  07:58 PM
+cool!!!!!!!!!

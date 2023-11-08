@@ -1,0 +1,21 @@
+00:37:04	Lakpa S:	After print("you got it," ), we can add "Do you want to play more? " ) right?
+00:37:28	Lakpa S:	and then yes / no 
+00:48:57	Lakpa S:	it output 12.
+00:59:38	Yujin Kim:	what is *args?
+01:47:06	Susnata Samanta:	you didn't launch the poll
+01:47:21	Lakpa S:	yes
+01:53:40	Katie:	did you use parenthesis instead of brackets?
+01:53:50	Katie:	That is what caused mine to fail
+01:53:58	Susnata Samanta:	yesss
+01:55:15	Megha Durukkar:	>>> friends.append("Joe")
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    friends.append("Joe")
+AttributeError: 'tuple' object has no attribute 'append'
+01:55:25	Katie:	did you use parenthesis instead of brackets?
+That is what caused mine to fail
+
+01:59:20	Megha Durukkar:	I used parenthesis
+friends.append("Joe")
+
+02:00:56	Jeffrey Berry:	When you make the list in the first place, it has to use brackets: friends = ["James,", "joe,", etc.].

@@ -1,0 +1,125 @@
+        self.mag_menu_add_command(label="Help", command=self.mag_help,
+                                  underline=0)
+        self.mag_menu_add_command(label="Remove Pos History", command=self.erase_pos_history,
+                                  underline=0)
+        self.mag_menu_add_command(label="Select", command=self.mag_select,
+                                  underline=0)
+        self.mag_menu_add_command(label="Expand Right", command=self.mag_expand_right,
+                                  underline=7)
+        self.mag_menu_add_command(label="Expand Top", command=self.mag_expand_top,
+                                  underline=7)
+        self.mag_menu_add_command(label="View", command=self.mag_view,
+                                  underline=0)
+
+    def nav_help(self):
+        """ Help for Alt-n commands
+        """
+        """ Help - list command (Alt-n) commands
+        """
+        help_str = """
+        Help - list navigate commands (Alt-n) commands
+        h - say this help message
+        a - Start reporting position
+        b - remove 
+        z - stop reporting position
+        e - echo input on
+        o - echo off
+        v - visible cells
+        i - invisible cells
+        r - redraw figure
+        s - silent speech
+        t - talking speech
+        l - log speech
+        m - show marked(even if invisible)
+        n - no log speech
+        p - report position
+        u - audio beep
+        d - no audio beep
+         Escape - flush pending report output
+        """
+        self.speak_text(help_str)
+
+    def nav_menu_setup(self, nav_menu):
+        self.nav_menu = nav_menu
+        self.nav_dispatch = {}
+        self.nav_menu_add_command(label="Help", command=self.nav_help,
+                                  underline=0)
+        self.nav_menu.add_command(label="add At loc", command=self.nav_add_loc,
+                                  underline=0)
+        self.nav_menu_add_command(label="b-remove At loc", command=self.nav_no_add_loc,
+                                  underline=0)
+        self.nav_menu_add_command(label="echo input on", command=self.nav_echo_on,
+                                  underline=0)
+        self.nav_menu_add_command(label="echo off", command=self.nav_echo_off,
+                                  underline=5)
+
+        self.nav_menu_add_command(label="visible cells", command=self.nav_make_visible,
+                                  underline=0)
+        self.nav_menu_add_command(label="invisible cells", command=self.nav_make_invisible,
+                                  underline=0)
+        self.nav_menu_add_command(label="marked", command=self.nav_show_marked,
+                                  underline=0)
+        self.nav_menu_add_command(label="noisy", command=self.make_noisy,
+                                  underline=0)
+        self.nav_menu_add_command(label="silent", command=self.make_silent,
+                                  underline=0)
+        self.nav_menu_add_command(label="talking", command=self.nav_make_talk,
+                                  underline=0)
+        self.nav_menu_add_command(label="log talk", command=self.nav_logt,
+                                  underline=0)
+        self.nav_menu_add_command(label="no log talk", command=self.nav_no_logt,
+                                  underline=10)
+        self.nav_menu_add_command(label="position", command=self.nav_say_position,
+                                  underline=0)
+        self.nav_menu_add_command(label="redraw figure", command=self.nav_redraw,
+                                  underline=2)
+        self.nav_menu_add_command(label="audio beep", command=self.nav_audio_beep,
+                                  underline=1)
+        self.nav_menu_add_command(label="q no audio beep",
+                                  command=self.nav_no_audio_beep,
+                                  underline=0)
+        self.nav_menu_add_command(label="x enable mouse navigation",
+                                  command=self.nav_enable_mouse,
+                                  underline=0)
+        self.nav_menu_add_command(label="y disable mouse navigation",
+                                  command=self.nav_disable_mouse,
+                                  underline=0)
+
+        self.draw_menu_add_command(label="Help", command=self.draw_help,
+                                   underline=0)
+        self.draw_menu_add_command(label="drawing", command=self.start_drawing,
+                                   underline=0)
+        self.draw_menu_add_command(label="stop_drawing", command=self.stop_drawing,
+ 
+
+
+
+                                  underline=0)
+
+
+        self.scan_menu_add_command(label="Help", command=self.scan_help,
+                                   underline=0)
+        self.scan_menu_add_command(label="c -  combine wave - faster scan",
+                                   command=self.scan_combine_wave,
+                                   underline=0)
+        self.scan_menu_add_command(label="d - disable combine wave",
+                                   command=self.scan_disable_combine_wave,
+                                   underline=0)
+        self.scan_menu_add_command(label="f - flip skip space", command=self.flip_skip_space,
+                                   underline=0)
+        self.scan_menu_add_command(label="r - flip skip run", command=self.flip_skip_run,
+                                   underline=0)
+        self.scan_menu_add_command(label="Start scanning", command=self.start_scanning,
+                                   underline=0)
+        self.scan_menu_add_command(label="Stop scanning", command=self.stop_scanning,
+                                   underline=1)
+        self.scan_menu_add_command(label="No item wait", command=self.scan_no_item_wait,
+                                   underline=0)
+        self.scan_menu_add_command(label="Wait for item", command=self.scan_item_wait,
+                                   underline=0)
+
+
+
+        aux_menu.add_command(label="Trace", command=self.trace_menu,
+                             underline=0)
+        menubar.add_cascade(label="Auxiliary", menu=aux_menu)

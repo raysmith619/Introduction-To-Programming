@@ -1,0 +1,15 @@
+18:07:37	 From  Samantha Lipsky : 4%1 ###remainder
+18:07:49	 From  Samantha Lipsky : =0
+18:09:14	 From  Andrew Chin : inp = input("Enter Number")num = int(imp)for n in range (1, num+1):     print (n)     n+1
+18:12:20	 From  Andrew Chin : def add2(value1, value2):     sum = value1 + value2     return sum
+18:14:18	 From  Mary M. : Import random
+18:15:04	 From  Mary M. : import random from random import randint
+18:15:15	 From  Andrew Chin : while true:
+18:17:08	 From  Mary M. : def add2=(value1, value2) : sum = value1 +value2 return sum
+18:19:45	 From  Andrew Chin : global my friends
+18:20:39	 From  Andrew Chin : for name in my_friends:     print (name)break
+18:55:11	 From  Mary M. : screen is fuzzing in and out  for me.
+18:55:32	 From  Mary M.  to  Charles Smith(Privately) : screen is fuzzing in and out  for me !!!
+19:36:47	 From  Mary M. : Can you repeat the python help request?
+19:50:06	 From  Mary M. : Thank you for a great class tonight.  Wishing you a good week.
+19:51:02	 From  Samantha Lipsky : Thanks Ray and class!

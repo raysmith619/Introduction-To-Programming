@@ -1,0 +1,21 @@
+Output from several runs of timestable_N.py
+
+Please enter number: 5
+1 x 5 = 5
+2 x 5 = 10
+3 x 5 = 15
+4 x 5 = 20
+5 x 5 = 25
+>>> 
+ RESTART: C:\Users\raysm\workspace\python\IntroductionToProgramming\class3b\timestableN.py 
+Please enter number: 3
+1 x 3 = 3
+2 x 3 = 6
+3 x 3 = 9
+>>> 
+ RESTART: C:\Users\raysm\workspace\python\IntroductionToProgramming\class3b\timestableN.py 
+Please enter number: pi
+Traceback (most recent call last):
+  File "C:\Users\raysm\workspace\python\IntroductionToProgramming\class3b\timestableN.py", line 8, in <module>
+    nval = int(inp)
+ValueError: invalid literal for int() with base 10: 'pi'

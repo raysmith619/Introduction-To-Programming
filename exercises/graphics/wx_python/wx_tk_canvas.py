@@ -5,3 +5,5 @@ Tarketed to code developed under tkinter but moving
 to wxPython.
 wx_class = WxTkCanvas()
 """
+import wx
+import tkinter as tk

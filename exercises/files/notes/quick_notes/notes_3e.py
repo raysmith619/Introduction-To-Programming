@@ -11,6 +11,16 @@ Loop over patterns
 Use regular expression search
 """
 import re
+import os
+
+# Protect if current working directory not source file directory
+cwd = os.getcwd()
+src_dir = os.path.dirname(__file__)
+if cwd.lower() != src_dir.lower():   
+    print(f"\ncurrent directory: {cwd}")   # f before quotes expands {value} in quotes
+    print(f"\nfile directory: {src_dir}")
+    print("Changing directory to src dir")
+    os.chdir(src_dir)
 
 # Default values
 def_file_name = "test.notes"
@@ -31,10 +41,12 @@ while True:
             try:
                 finp = open(file_name)
                 finp.close()    # Just testing
+                print("   at", os.path.abspath(file_name))
                 break           # Successful open file
             
             except IOError :
                 print("Can't open file ", file_name)
+                print("   at", os.path.abspath(file_name))
 
         while True:
             with open(file_name) as finp:

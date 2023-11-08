@@ -1,0 +1,197 @@
+Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 1+1
+2
+>>> 2*2
+4
+>>> 2-1
+1
+>>> 2/3
+0.6666666666666666
+>>> 2//3
+0
+>>> 2**3
+8
+>>> sqrt(2)
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    sqrt(2)
+NameError: name 'sqrt' is not defined
+>>> import math
+>>> math.sqrt(2)
+1.4142135623730951
+>>> 999999999999999999999999999+1
+1000000000000000000000000000
+>>> 99+1
+100
+>>> 9999+1
+10000
+>>> 9999999999999999999999999999999999999999999+1
+10000000000000000000000000000000000000000000
+>>> 10000000000000000000000000000000000000000000-1
+9999999999999999999999999999999999999999999
+>>> 5%2
+1
+>>> 44/44
+1.0
+>>> (4*4)/(4+4)
+2.0
+>>> (4+4+4)/4
+3.0
+>>> 1;2;3
+1
+2
+3
+>>> 1+1;2+2;3+3
+2
+4
+6
+>>> 44/44;(4*4)/(4+4);(4+4+4)/4
+1.0
+2.0
+3.0
+>>> "hi there"
+'hi there'
+>>> 'ho there'
+'ho there'
+>>> "44/44;(4*4)/(4+4);(4+4+4)/4"
+'44/44;(4*4)/(4+4);(4+4+4)/4'
+>>> "hi there
+SyntaxError: EOL while scanning string literal
+>>> "Ray" + " " + "Smith"
+'Ray Smith'
+>>> """Ray
+Smith
+on multiple
+lines"""
+'Ray\nSmith\non multiple\nlines'
+>>> 'Ray \nSmith\non multiple\nlines'
+'Ray \nSmith\non multiple\nlines'
+>>> 'Ray\nSmith\non multiple\nlines'
+'Ray\nSmith\non multiple\nlines'
+>>> print('Ray\nSmith\non multiple\nlines')
+Ray
+Smith
+on multiple
+lines
+>>> print("""Ray
+Smith
+on multiple
+lines""")
+Ray
+Smith
+on multiple
+lines
+>>> print(1,2,3,"four",5)
+1 2 3 four 5
+>>> a=1
+>>> b=2
+>>> c=3
+>>> d="dee"
+>>> a
+1
+>>> b
+2
+>>> c
+3
+>>> d
+'dee'
+>>> e
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    e
+NameError: name 'e' is not defined
+>>> e =5
+>>> e
+5
+>>> abcd1234_="abcd1234"
+>>> abcd1234
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    abcd1234
+NameError: name 'abcd1234' is not defined
+>>> abcd1234_
+'abcd1234'
+>>> 1=1
+SyntaxError: cannot assign to literal
+>>> 1+1
+2
+>>> 1a=5
+SyntaxError: invalid syntax
+>>> _1a=5
+>>> print(_1a)
+5
+>>> if 2<3:
+	print("Not greater")
+
+	
+Not greater
+>>> if 2<1:
+	print("Not greater")
+
+	
+>>> if a > b:
+	print(a, ">", b)
+
+	
+>>> a
+1
+>>> b
+2
+>>> b=.5
+>>> if a > b:
+	print(a, ">", b)
+
+	
+1 > 0.5
+>>> if a > b:
+	print(a, ">", b)
+else:
+	print(a, "not >
+	      
+SyntaxError: EOL while scanning string literal
+>>> if a > b:
+	print(a, ">", b)
+else:
+	print(a, "not >", b)
+
+	
+1 > 0.5
+>>> b=2
+>>> if a > b:
+	print(a, ">", b)
+else:
+	print(a, "not >", b)
+
+	
+1 not > 2
+>>> if a > b:
+	print(a, ">", b)
+elif a > c:
+	print(a, ">", c)
+else:
+	print(a, "not >", b)
+
+	
+1 not > 2
+>>> c=.2
+>>> if a > b:
+	print(a, ">", b)
+elif a > c:
+	print(a, ">", c)
+else:
+	print(a, "not >", b)
+
+	
+1 > 0.2
+>>> 1 > 0.2
+True
+>>> if a > b:
+	print(a, ">", b)
+
+	
+>>> 
+= RESTART: C:/Users/raysm/workspace/python/IntroductionToProgramming/classes/sept_2020/hello_world_3.py
+Hello World!
+My name is Ray.
+>>> 

@@ -1,0 +1,39 @@
+chat_24Sep2020.txt
+From Neil Peterson to Me:  (Privately) 06:01 PM
+Have been trying to catch up using a couple of books on Python.  Once I know where the class is I'll finish homework.
+From Nadia Beltchev to Everyone:  06:14 PM
+off and on, your screen content shows as very blurrylike right nownothing is legibleis the screen clear for anyone?
+From Andrew Chin to Everyone:  06:14 PM
+it's blurry for me too
+From Robert McCloskey to Everyone:  06:14 PM
+same
+From Nadia Beltchev to Everyone:  06:16 PM
+it is too blurry now
+From Neil Peterson to Me:  (Privately) 06:18 PM
+Screen is much more visible if you use the "speaker's view".
+From Mary M. to Everyone:  06:48 PM
+What does this error mean: SyntaxError: multiple statements found while compiling a single statement??
+From Nadia Beltchev to Everyone:  06:55 PM
+I can't get new names to append to listmy_friends = [        "Ray Smith",        "Tony Soprano",        "Chris Kringle",        ]while True:    ans = input("Enter friend name:")    if ans == "":   #if ans is empty        ## put list code here - cut from above        for name in my_friends:            print (name)        else:            my_friends.append(ans)it looks like I have the same thing as you do
+From Mary M. to Everyone:  06:56 PM
+What does this error mean: SyntaxError: multiple statements found while compiling a single statement??# Lists.py  24Sept20 mmm, author"""Friends - Simple List ExampleJust listing here"""my_friends=[    "Ray instructor",    "RBG",    "Nancy Pelosi",    ]for name in my_friends:    print(name)
+From Nadia Beltchev to Everyone:  07:01 PM
+for name in needs to go on next lineit works now, that I put if and else at same indentthank you!
+From Mary M. to Everyone:  07:07 PM
+??#Lists.py  24Sept20 mmm"""Friends - Simple List Example"""my_friends=[    "Ray instructor",    "Ruth Bader Ginsburg",    "Nancy Pelosi",    ]while True:    ans = input("Enter friend:")    if ans == "";        for name in my_friends:            print(name)            break    #Lists.py  24Sept20 mmm"""Friends - Simple List Example"""my_friends=[    "Ray instructor",    "Ruth Bader Ginsburg",    "Nancy Pelosi",    ]while True:    ans = input("Enter friend:")    if ans == "";        for name in my_friends:            print(name)            break    else:	    help anyone ???
+From Nadia Beltchev to Everyone:  07:10 PM
+your last sample is missing the last lineelse:        my_friends.append(ans)
+From Mary M. to Everyone:  07:19 PM
+Thank YOU !Nadia, Thank you !!!still not working:>>> #Lists.py  24Sept20 mmm"""Friends - Simple List Example"""my_friends=[    "Ray instructor",    "RBG",    "Nancy Pelosi",    ]while True:    ans = input("Enter friend:")    if ans == "";        for name in my_friends:            print(name)            break    else:        my_friends.append(ans)This is so frustrating. :-(#append_friends3.py  24Sept20 mm nothing.py"""Friends - Simple List Example"""my_friends=[    "Ray Instructor",    "Ruth Bader Ginsburg",    "Nancy Pelosi",    ]while True:    ans =input("Enter friend:")    if ans == "";        for name in my_friends:            print(name)    break          else:        my_friends.append(ans)
+From Andrew Chin to Everyone:  07:20 PM
+you might need to have the break on the same indent as your 'for' loop
+From Mary M. to Everyone:  07:21 PM
+Thank u Andrew !
+From Mary M. to Me:  (Privately) 07:29 PM
+>>> #append_friends3.py  24Sept20 mm nothing.py"""Friends - Simple List Example"""my_friends=[    "Ray Instructor",    "Ruth Bader Ginsburg",    "Nancy Pelosi",    ]while True:    ans =input("Enter friend:")    if ans == "";        for name in my_friends:            print(name)        break          else:        my_friends.append(ans)        SyntaxError: multiple statements found while compiling a single statement>>> I'm still not sure what you mean.which python do I open?Yes
+From Mary M. to Everyone:  07:49 PM
+Thank you for all your help tonight.  Wishing you a good week, Mary
+From Mary M. to Me:  (Privately) 07:50 PM
+Thank you for all your help tonight.
+From Samantha Lipsky to Everyone:  07:54 PM
+Slide 66You too, MaryThanks!

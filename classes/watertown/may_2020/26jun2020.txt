@@ -1,0 +1,36 @@
+From shlok to Me:  (Privately) 06:03 PM
+Hello, this my first class. So is that fine?
+From shlok to Everyone:  06:04 PM
+Hello, this my first class. So is that fine?
+From Lakpa S Sherpa to Me:  (Privately) 06:19 PM
+how to use try?if we type string instead of number.
+From Lakpa S Sherpa to Everyone:  06:29 PM
+error handlingI think, we should use try and except in that case to handle error. 
+From Sarah Rauhut to Everyone:  06:32 PM
+I'm getting an error message that says "Unindent does not match any outer indentation level." It's right after ans == "n" of ans == "N":
+From Jeffrey Berry to Everyone:  06:33 PM
+Do you have that as "of" or as "or"?
+From Sarah Rauhut to Everyone:  06:34 PM
+if ans == "n" or ans == "N":can someone ask for me? My microphone doesn't work.
+From Jeffrey Berry to Everyone:  06:35 PM
+Check where the if statement is, compared to the "while" statement.Python depends on indentation, i.e. white space, which makes it hard to fix, sometimes.
+From Soham Samanta to Everyone:  06:38 PM
+yeah
+From Lakpa S Sherpa to Everyone:  06:39 PM
+my microphone also doesn't work.
+From Carl Karandjeff to Everyone:  07:12 PM
+Nice catch!
+From Soham Samanta to Everyone:  07:35 PM
+  rsorrynope
+From Jeffrey Berry to Everyone:  07:36 PM
+Thank you for the lecture!
+From Katie to Everyone:  07:37 PM
+Thank you!
+From Soham Samanta to Everyone:  07:37 PM
+bye !!!!!!!!!!!!!
+From Sarah Rauhut to Me:  (Privately) 07:37 PM
+Thank you!
+From FATMA VATANSEVER to Everyone:  07:37 PM
+Thank you!!!!
+From Yujin Kim to Everyone:  07:38 PM
+Thanks a lot!!!\

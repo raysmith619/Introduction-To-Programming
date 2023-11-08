@@ -1,0 +1,41 @@
+
+	Olive Chukwuanu	Olivechukwuanu@gmail.com	
+
+	Megha Durukkar	m.durukkar@gmail.com	
+
+	Lakpa Sange Sherpa	sherpalakpasange77@gmail.com	
+
+	Alina Orasanu	alisior@yahoo.com	
+
+	Anne Salvas	Fowlbovine@gmail.com	
+
+	Masoud Loeian	Sm.loeian@gmail.com		
+	Ken MacKenzie	Ken.mackenzie@gmail.com	
+
+	Bill T	watertown@houserock.org	
+
+	thomas harte	tharte@mail.com	
+
+	Florenca Kalemi	fkalemi19@gmail.com	
+	Kenji Miki	kenji.miki2807@gmail.com		
+	Lindsay Ferguson	Lgferg02@gmail.com	
+	Scilla Bennett	scilla.bennett@gmail.com		
+	Doly Han	dolyh@brandeis.edu	
+	kedar Karki	Kdr.karki@gmail.com	
+	Jeffrey Berry	jeffreyberry9@gmail.com	
+	Katherine Tyson	tyson.k.89@gmail.com	
+	FATMA VATANSEVER	fvatansev@gmail.com	
+	Liz Kolster	lizkolster@gmail.com	
+	Janet Spillert	jspillert@gmail.com	
+	JOHN TOLAN	johndsotm@aol.com		
+	Lindsay Gardner	lindsaygardner09@gmail.com	
+	Yujin Kim	baramein@gmail.com	
+	Sue Potter	suepotter71@yahoo.com	
+	Soham Samanta	susnatas@gmail.com	
+	Danielle Lavoie	danielle.m.lavoie@gmail.com	
+	Sundari Bala	aksundari@gmail.com	
+	Sarita Spillert	sspillert@gmail.com	
+	Sarah Rauhut	srauhut@gmail.com	
+
+$ perl -ane 'if (/(\S+)\s*$/){print("$1 ")}' class_2020*.txt
+Olivechukwuanu@gmail.com m.durukkar@gmail.com sherpalakpasange77@gmail.com alisior@yahoo.com Fowlbovine@gmail.com Sm.loeian@gmail.com Ken.mackenzie@gmail.com watertown@houserock.org tharte@mail.com fkalemi19@gmail.com kenji.miki2807@gmail.com Lgferg02@gmail.com scilla.bennett@gmail.com dolyh@brandeis.edu Kdr.karki@gmail.com jeffreyberry9@gmail.com tyson.k.89@gmail.com fvatansev@gmail.com lizkolster@gmail.com jspillert@gmail.com johndsotm@aol.com lindsaygardner09@gmail.com baramein@gmail.com suepotter71@yahoo.com susnatas@gmail.com danielle.m.lavoie@gmail.com aksundari@gmail.com sspillert@gmail.com srauhut@gmail.com

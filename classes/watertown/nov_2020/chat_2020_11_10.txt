@@ -1,0 +1,138 @@
+From Wei Chandler to Everyone:  06:04 PM
+not muchi'm doing some
+From Lisa Tandy to Everyone:  06:05 PM
+Drew Rollert is logged on with me
+From Milozweird =D to Everyone:  06:06 PM
+I do scratchcoding
+From Wei Chandler to Everyone:  06:07 PM
+i also do scratch
+From Milozweird =D to Everyone:  06:07 PM
+scratch is fun
+From DaWeird🤪 to Everyone:  06:07 PM
+I also do scratchissa awesome stuff
+From Milozweird =D to Everyone:  06:07 PM
+yup
+From Milozweird =D to Everyone:  06:15 PM
+done
+From Miho Kurata to Everyone:  06:18 PM
+im just using a different computer to install.. and waiting
+From Justin Morgan to Me:  (Privately) 06:23 PM
+My shell only scrolls through previous commands when I use the arrow keys.
+From Forrester Blankinship to Everyone:  06:27 PM
+Mine saysTraceback (most recent call last):  File "<pyshell#16>", line 1, in <module>    right ( 90 )  File "<string>", line 5, in rightturtle.Terminator
+From Erik Blankinship to Everyone:  06:30 PM
+I got the same thing… and then on trying it again, it worked
+From Justin Morgan to Everyone:  06:32 PM
+I had to enable legacy mode in settings to get this to work properly.
+From Milozweird =D to Everyone:  06:32 PM
+what do you mean? what’s legacy
+From Justin Morgan to Everyone:  06:33 PM
+Win 10
+From Forrester Blankinship to Everyone:  06:33 PM
+from turtle import *
+From Milozweird =D to Everyone:  06:33 PM
+that should be correct*
+From Justin Morgan to Everyone:  06:33 PM
+If you right click on the top of the window and select preferencesyou can enable legacy mode
+From Milozweird =D to Everyone:  06:33 PM
+are there spaces? (to fori)
+From DaWeird🤪 to Everyone:  06:54 PM
+>>>'this is a "mulitline"/nstring''this is a "mulitline"/nstring'k
+From Shane French to Me:  (Privately) 06:54 PM
+can you please send us a copy of the python
+From Milozweird =D to Everyone:  06:56 PM
+“my internet connection is unstable">>> total = 8383838383838383838*3399399>>> print(total)28500011818181818180513362>>>
+From Forrester Blankinship to Everyone:  07:07 PM
+intro_prog
+From Justin Morgan to Everyone:  07:11 PM
+Y'all probably need to enable legacy mode
+From Milozweird =D to Everyone:  07:11 PM
+we have no idea what that is
+From Justin Morgan to Everyone:  07:11 PM
+Right click the window bar at the top and go to preferences
+From Milozweird =D to Everyone:  07:12 PM
+window bar?
+From Justin Morgan to Everyone:  07:12 PM
+Check the box that says enable legacy mode
+From Milozweird =D to Everyone:  07:12 PM
+but whats the window bar
+From Justin Morgan to Everyone:  07:12 PM
+The bar with the close, minimize and enlarge buttons
+From Milozweird =D to Everyone:  07:13 PM
+oh! lemme seejust getting my mouse...
+From Miho Kurata to Everyone:  07:13 PM
+I don't have the header either 
+From Justin Morgan to Everyone:  07:13 PM
+It requires you to restart Python in order to start. Just close Python and re-open it.
+From Milozweird =D to Everyone:  07:13 PM
+it doesn’t workthe legacy thingy
+From Justin Morgan to Everyone:  07:14 PM
+Did you close Python then re start it?
+From Erik to Everyone:  07:14 PM
+https://discuss.python.org/t/idle-not-showing-file-menu/3779
+From Milozweird =D to Everyone:  07:16 PM
+GO TO THIS WHOEVER NEEDS HELP https://discuss.python.org/t/idle-not-showing-file-menu/3779I don’t have legacy since it’s only for windowsthat’s what Erik said =D
+From Miho Kurata to Everyone:  07:19 PM
+i don't have it yet but will look it up after class
+From Milozweird =D to Everyone:  07:20 PM
+U-U *sighs* tech problems.
+From Shane French to Everyone:  07:25 PM
+my  brother is a murder and about to kill m
+From Milozweird =D to Everyone:  07:25 PM
+wut
+From Shane French to Everyone:  07:25 PM
+jk
+From Milozweird =D to Everyone:  07:25 PM
+loll that’s what i thought
+From Shane French to Everyone:  07:26 PM
+just kiddinglolpjuu
+From Milozweird =D to Everyone:  07:26 PM
+lopUwU 0-o
+From Shane French to Everyone:  07:29 PM
+hiihi
+From Milozweird =D to Everyone:  07:30 PM
+HEllowatup
+From Shane French to Everyone:  07:31 PM
+my inter net kicked me offand started putting random things In the chat
+From Milozweird =D to Everyone:  07:31 PM
+lol
+From Milozweird =D to Everyone:  07:38 PM
+EOL while scanning string literal
+From Justin Morgan to Everyone:  07:39 PM
+It sounds like you're working in the shell instead of working in a new file.
+From Milozweird =D to Everyone:  07:40 PM
+but I am in a new file
+From Justin Morgan to Everyone:  07:41 PM
+Does it have the >>> arrows?
+From Milozweird =D to Everyone:  07:42 PM
+#goodbye_world.py 10Nov2020 MLM   Adjusted from hello_worldprint ("Goodbye World)print("My name is Milo Miller")noit doesn't\EOL while scanning string literal
+From DaWeird🤪 to Everyone:  07:45 PM
+it has the ">>>"
+From Erik to Everyone:  07:56 PM
+Thank you!
+From Tien-Yi Lee to Everyone:  07:58 PM
+sorry I had a big internet bug
+From Shane French to Everyone:  07:58 PM
+thank you for the class
+From Milozweird to Everyone:  07:58 PM
+yes, thank  you!:D
+From Ezhilarasi Ramesh to Everyone:  07:58 PM
+Thank you
+From Shane French to Everyone:  07:58 PM
+thank you thank you thank you 
+From Milozweird to Everyone:  07:59 PM
+Oksounds good
+From Marta Flores to Everyone:  07:59 PM
+Thank you!
+From Wei Chandler to Me:  (Privately) 07:59 PM
+ Thank you!!!!
+From Lisa Tandy to Everyone:  07:59 PM
+Thank you, Ray
+From Milozweird to Everyone:  07:59 PM
+Thanks! Bai
+From Erik to Everyone:  07:59 PM
+Ciao!
+From Anthony Sai to Everyone:  07:59 PM
+Thanks!
+From Milozweird to Everyone:  07:59 PM
+ciaociao

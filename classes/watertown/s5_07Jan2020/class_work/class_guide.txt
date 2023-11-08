@@ -1,0 +1,243 @@
+#class_guide.txt  20Sep2020  crs, combine class 1, 2
+
+A loose guide of class progression
+Includes associated slides from PowerPoint(R) slide file:
+ Introduction to Proramming Using Python.pptx
+ 
+Class 1 - Introduction - Getting Going
+Slides 1-6 - Class Introduction
+Slides 10-15 - Start using IDLE to learn Python Language parts
+   Run IDLE, creating a window
+
+    Open/print file exercises/python_introduction.txt so you can
+    follow along, using IDLE attempt the exercise examples
+    NOTE: You can use IDLE to open this file (File->Open->...find exercises/python_introduction.py...)
+   The python_indroduction.txt, opened in IDLE should be in a separate
+   window
+
+   This file was written with the attempt you could follow
+   it without much additional instruction.
+    Don't worry about errors.  Python/Idle
+    is just trying to help by guessing the problem
+    when it does not understand your input.
+
+Slides 16-19 - Creating a program file Using IDLE
+       1) create my_work.py, a place-holder file, in a folder 
+           you create for your class work (probably a sister folder
+           in which you stored the exercises folder I sent out as part
+           of the introduction to introduction...email
+        2) create and test the hello_world.py program -
+           Simplest way (File-->Recent Files ... look and select my_work.py
+           REMEMBER for new work Save As to new name before
+           doing any work.
+       3) create and test the goodbye_world.py  What should you use
+           as your starting point ?  Remember, when climbing a mountain,
+           it is often easier starting at base camp than starting at the bottom
+           of the ocean. :)
+Slide 20 - more parts of python (examples in python_introduction.py)
+
+Slides 23-27 - Beginning of Course Project - Programming the game of Twenty Questions
+
+Slide 28 (After doing first.py exercise)
+
+
+Class 2 More Python, further on Class Project
+Startup Exercise: Make an example of everything we covered.
+Create file: exerciseDDMMMYYYY.py [10 min]
+
+
+Slides: 13, 20: Review Homework python_introduction.py
+Any Questions? [10 min]
+
+Slides: 23-28: Review Twenty Questions Project first.py
+                 [5 min]
+Slides: 21, 22: Introduction Lists, Dictionary  [10 min]
+
+
+Slides: 34-40: Programming Ideas [15 min]
+
+Slides: 41-42: Python Tools Review  [5 min]
+
+Slides:  47-65: Review / Reinforcement  [10 min]
+
+Slides: 66: Exercise: timestable.py  [10 min]
+Slides: 67-69: Exercise:timestableN.py  [10 min]
+Slides: 69: Exercise left to the reader:timestableNbyN.py
+
+Slides: 70 : Second Iteration of Twenty Questions Project
+             Exercise: second.py  [10 min]
+Slides: 71: Our second.py version
+
+Slides: 72-74: Thinking of Versions  [5 min]
+
+Slides: 75-78: More Python Review/Reinforcement
+Homework: Twenty Questions third.py, forth.py
+            Third: Say if greater, less or equal
+            Fourth: Set target to random number
+        timestable.py Slides: 66 
+        timestableN.py  Slides: 67-69 
+        ** timestableNbyN.py (Extra Credit) Slides: 69 
+
+
+Class 3
+Review Twenty Questions iterations
+    Poll class for third.py, go over if < %50
+            Third: Say if greater, less or equal
+            
+    Poll class for forth.py, go over if < %50
+            Fourth: Set target to random number
+
+
+import, Using the Web for help Slides: 79-80
+
+
+Startup Exercise: list_friends.py Slides: 82
+1.create file list_friends.py
+2. Make my_friends = ["first friend", "Ray", "Sara"]   # YOUR Friends
+3. Write "for" loop to print out friends' names
+4. Run program
+
+Startup Exercise: add_friends.py  Slides: 83
+1. create add_friends.py (starting with list_friends.py, Save As)
+2. Add loop to ask for new friend (input()
+3. Inside the loop:
+    a.If entered value is EMPTY (== "") print whole list.
+    b.If not, add the input to list (my_friends.append())
+   
+
+Functions - Divide and Conqure Slides: 84-88
+
+Exercise: Improve add_friends.py to add_friends_fun
+        by writing and using print_friends function
+        to hold the print friends code
+
+
+Class 4 Functions
+Poll on Twenty Questions Iteration 5
+         Fifth: Say goals, rules before start,
+        including "a number between…"
+        Review: if < %70
+
+Home Work:
+	Twenty Questions: Multi-game iteration6.py                                   
+	Exercise: product.py Slides: 90
+	Exercise: print factors.py - improvements slides: 94-95
+
+
+
+Review Functions: 84-89
+Functions - parameters Slides: 91-93
+
+Functions: keyword parameters - "print" example Slides: 93
+
+Exercise 2: – Print factors – factors.py Slides: 94-95
+
+
+Class 5 Functions - Example
+
+Startup Exercise - Everything you know
+Using chat (to everyone)
+Give Python code, and example of a programming concept /idea / tool
+2 + 2  		### Computation, addition
+a = 2		### variable, assignment
+if a > 3:	### test
+    stuff
+
+Lists, A Review Slides: 96
+
+Polls on Homework:
+	Twenty Questions: Multi-game iteration6.py                                   
+	Exercise: product.py Slides: 90
+	Exercise: print factors.py - improvements slides: 94-95
+
+  
+Functions - Larger Use Example - friends_family
+
+ friends_1 A start:    Slides: 98
+ 	functions: list, test list
+	functions: add, test add
+	testing calls function at end
+
+ friends_2 Improving Slides: 99
+
+ friends_3 Checking Slides: 100
+
+ friends_mod Including Self-Test Slides: 101                                 
+
+ friends_4 Code in friends_mod.py, facilitating reuse Slides: 102
+        from friends_mod import * # ALL
+
+                                   # Better ???
+        from friends_mod import add_friends, list_friends
+        
+ Homework:
+	Twenty questions:
+            Ask again if user types an illegal number iteration7.py                       		Hint: Use try:, except:
+        Expand friends_family:
+            1. Only add friend if not already there
+            2. Allow case insensitive match on if_friend/add friend                      	Only need friends_mod.py + friends_4.py for testing.
+	1-3 were used for developent
+	Note you should save the original files so you can compare / contrast/
+	test for errors.
+
+
+
+Class 6 - Dictionaries and things
+
+Homework Polls:
+	1. Twenty questions iteration7.py:
+            Ask again if user types an illegal number iteration7.py                       		Hint: Use try:, except:
+    2. Expand friends_family:
+        1. Only add friend if not already there
+        2. Allow case insensitive match on if_friend/add friend                      	Only need friends_mod.py + friends_4.py for testing.
+
+Question: What is (the most) confusing about Python so far?
+        Send in Chat
+                                   
+Question: What to do you want most to learn / be covered?
+        Send in Chat
+
+More detail on Strings Slides 103-105
+                                   
+
+Dictionary (AKA hash, associative array) Slides: 106-107
+When would you use a dictionary?  When would you use a list?
+
+
+friends_family - Use dictionary inplace of list Slides: 108
+    for each file, starting with friends_1.py
+	The adventursome could skip to friends_mod.py, friends_4.py          
+	    1. save as .._dk_N.py (e.g. friends_1.py goes to friends_di_1.py)
+	    2. modify my_friends from a list to a dictionary
+	        my_friends = {}
+	    3. traverse list:
+	        for friend_name in my_friends:
+	            friend = my_friends[friend_name]
+
+
+Files - Data that stays around Slides 109-110
+
+Exercise: Create a file Slide 111
+
+Exercise: Read a file
+
+Files - a simple data base  Slides 114-117
+
+
+
+Class 7 - Classes - Object Oriented - Structures, etc.
+
+Questions:
+	What is (the most) confusing about Python so far?
+        before class: email,  Send in Chat
+                                   
+	What to do you want most to learn / be covered?
+        before class: email,  Send in Chat
+
+Classes - Reason, Definition, Use Slides: 116-121
+
+Classes - An Example: Person, PersonGroup Slides: 122-123
+		Files: person_classes/ person.py, person_group.py
+
+Files - check for errors - try/except
+		Files: file_io/ create_file_try.py, read_file_try.py                                  

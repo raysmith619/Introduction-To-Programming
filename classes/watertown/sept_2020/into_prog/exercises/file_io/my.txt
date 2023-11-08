@@ -1,0 +1,8 @@
+my.txt
+this is my test file.
+more of the same
+end
+line 1
+line 2
+line 3
+line 4

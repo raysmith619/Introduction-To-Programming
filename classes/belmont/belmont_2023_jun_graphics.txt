@@ -1,0 +1,11 @@
+Xinxin	Guo	xinxinguo@gmail.com
+Elena	Vashuk	elena.vashuk@gmail.com
+Manoj	Kumar	asnmanojkumar@gmail.com
+Jieun	Yoon	pzpz79@gmail.com
+Puja	KC	kcpuja@gmail.com
+
+xinxinguo@gmail.com
+elena.vashuk@gmail.com
+asnmanojkumar@gmail.com
+pzpz79@gmail.com
+kcpuja@gmail.com

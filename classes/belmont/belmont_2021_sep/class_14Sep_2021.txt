@@ -1,0 +1,31 @@
+Class 14Sep_2021
+Used most of QA time for lecture
+stopped before slide 28
+What so far?
+…Arithmetic… Error Messages
+
+if, else, elif, True, False,
+a == b, a != b, a > b, a < b, a >= b
+while, for, break, continue, range()
+input(), int()
+
+Questions:
+    Can we have a short break?
+From Smitha to Me:
+    how do you do Factorials?
+    
+Running programs, using python
+    python hello_world.py
+Running programs if computer association with .py to python
+    hello_world.py
+
+
+Class 21Sep2021
+Start with Session #2 slides
+After Ideas - Quick jump through boolen, tests,
+if , while,for
+
+ End at slide 23
+ Moved exercises add2, product, print_keys to homework
+ 
+

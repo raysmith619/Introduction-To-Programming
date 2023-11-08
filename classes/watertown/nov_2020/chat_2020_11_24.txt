@@ -1,0 +1,16 @@
+From Hugo Hsiung to Everyone:  06:07 PM
+question
+From Erik to Everyone:  06:38 PM
+No while yet
+From Hugo Hsiung to Everyone:  06:52 PM
+question
+From milozweird to Everyone:  07:13 PM
+Invalid syntaxTHSI IS WAT It SaID i have no clue what it meansInvalid Syntaxbalance = 50000.ans = input ("Enter withdrawal amount: ")if ans == "ALL":    withdrawal = balanceelse:    withdrawal = float(ans)print("You entered", ans)if withdrawal > balance:    print ("Sorry:", ans, "is more than", balance, "your balance"else:    print("Here comes", withdrawal)
+From Erik to Everyone:  07:41 PM
+Thank you for the lesson!
+From Wei Chandler to Everyone:  07:43 PM
+Thank you for the lesson! Bye! Happy Thanksgiving everybody!
+From Forrester Blankinship to Everyone:  07:43 PM
+Thank you
+From Erik to Everyone:  07:43 PM
+🦃

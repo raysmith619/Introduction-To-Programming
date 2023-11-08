@@ -1,0 +1,68 @@
+From Elizabeth Yusem to Everyone:  06:29 PM
+bad echoing
+From Shouvik Chakraborty to Everyone:  06:30 PM
+yes
+From Mary McGarigle to Everyone:  06:30 PM
+yes.
+From Watertown Library to Me:  (Privately) 06:33 PM
+Heading out, good luck with the rest of the class!
+From Nadia Beltchev to Everyone:  06:38 PM
+there is background noise, like whooshing sound
+From Beyza Burcak to Everyone:  06:38 PM
+It says you are shring the results
+From Amrita Dhar to Everyone:  06:38 PM
+done
+From Beyza Burcak to Everyone:  06:39 PM
+Didn’t give option to pick something from the poll
+From Jon Szeski to Everyone:  06:39 PM
+Can't click the pollonly seeing the results of it 
+From Shouvik Chakraborty to Everyone:  06:39 PM
+cannot click the poll
+From Shwetha V to Everyone:  06:44 PM
+What is ^? how is it different from **?
+From Samantha Lipsky to Everyone:  06:47 PM
+^ is something else in Python (it's a bitwise operator, not an exponential)
+From Shwetha V to Everyone:  06:52 PM
+Thank you Samantha
+From Robert McCloskey to Everyone:  06:55 PM
+having a lot of trouble hearing and seeing. keep getting dropped from meeting. any suggestions?
+From Samantha Lipsky to Everyone:  06:57 PM
+You're welcome, Shwetha
+From Wendy Etkind to Everyone:  07:07 PM
+I’m on a MAC, how do I “run” my file?
+From Elizabeth Yusem to Me:  (Privately) 07:08 PM
+when i created a new file it was blankwhere do you open new in the python shell?
+From Me to Elizabeth Yusem:  (Privately) 07:09 PM
+just type into the blank file.
+From Elizabeth Yusem to Everyone:  07:09 PM
+i’m on mac too and don’t see how to do new or run a new filewhere do you do the new file in the command line?
+From Wendy Etkind to Everyone:  07:12 PM
+on a mac, click on the file, then the “run” option menu comes up
+From Nadia Beltchev to Everyone:  07:13 PM
+in Windows, on the topof the window, there are the following menu items: FIle, Edit, Format, Run...it should be similar in MACwindow of the .PY document
+From Shouvik Chakraborty to Everyone:  07:41 PM
+Can you please explain the while if loop again??Charles I had a question
+From Elizabeth Yusem to Everyone:  07:41 PM
+I finally was able to save as do I need to go through slides up to 27 to catch up to what you were doing
+From Mary M. to Everyone:  07:41 PM
+thank you for an interesting intro into python.
+From Elizabeth Yusem to Everyone:  07:44 PM
+what is the colon:  ?
+From Shouvik Chakraborty to Everyone:  07:50 PM
+Thanks a lot 
+From Elizabeth Yusem to Everyone:  07:50 PM
+so you only use colon on the first line?
+From Jon Szeski to Everyone:  07:50 PM
+Thank you Charles, appreciate it 
+From Elizabeth Yusem to Everyone:  07:53 PM
+Can you share your session with us so I can look at what you did?ok thanks bc I was a little lost in the middle-i will email you
+From Samantha Lipsky to Everyone:  07:53 PM
+Thanks Ray
+From Jon Szeski to Everyone:  07:53 PM
+if instructor goes by first name print "Thank You, Charles", else user goes by middle name print "Thank You, Raymond", else user goes by nickname print "Thank you, Ray": break
+From Shouvik Chakraborty to Everyone:  07:53 PM
+Thanks, Ray
+From Andrew Chin to Everyone:  07:54 PM
+good night
+From Shouvik Chakraborty to Everyone:  07:54 PM
+Good night

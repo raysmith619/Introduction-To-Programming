@@ -1,0 +1,89 @@
+This folder contains python code to help introduce an early programmer to
+the reasoning behind functions and their use.
+In the interest of demonstrating the benefits of functions, we may at times, add a few new things.
+
+The world we use for this instruction assumes the user has a growing list of folks which
+can be considered family, friend, known, or enemy.
+
+Initially the student is assumed to have a little knowledge of function, definition, and use,
+list, and string.  No classes are assumed or used.
+
+With the first file, (friends_1.py), we look a simple function (add_one_friend)
+to add one friend to our list.  We add a "worker" function (list_friends), which prints the
+current list of friends.  At the end we add a function (test_add_one_friend) to check our
+function code.
+Running Output:
+>>> 
+ RESTART: C:\Users\raysm\workspace\python\IntroductionToProgramming\friends_family\friends_1.py 
+
+test_add_one_friend
+add_one_friend(tom)
+friends: tom
+add_one_friend(joe)
+friends: tom, joe
+>>>
+
+Our second file (friends_2.py) demonstrates the use of variable number of
+arguments for functions with an example function (add_friends), which can take
+an arbitrary number of parameters.  The function (add_friends) makes use of
+(add_one_friend) by repeatedly calling it for each of its parameters.
+We add an aditional test function (test_add_friends)
+to test this function.
+
+Note in the testing, we continue testing the first function (add_one_friend) also.
+Running Output:
+>>> 
+ RESTART: C:\Users\raysm\workspace\python\IntroductionToProgramming\friends_family\friends_2.py 
+
+test_add_one_friend
+add_one_friend(tom)
+friends: tom
+add_one_friend(joe)
+friends: tom, joe
+
+test_add_friends()
+
+add_friends( tom )
+add_one_friend(tom)
+friends: tom
+
+add_friends( joe mary ray )
+add_one_friend(joe)
+friends: tom, joe
+add_one_friend(mary)
+friends: tom, joe, mary
+add_one_friend(ray)
+friends: tom, joe, mary, ray
+>>>     
+
+In our third file (friends_3.py) we add, and test the function (is_friend)
+as an example of building on our friends "data base".  the function (is_friend) takes
+a single paramater/argument name and returns True if the name is a "friend", that
+is a member of our (my_friends) list.
+
+>>> 
+ RESTART: C:\Users\raysm\workspace\python\IntroductionToProgramming\friends_family\friends_3.py 
+
+Note that we programmed out the testing of the first two functions, using an "if"
+clause, in the interest of brevity.
+
+Running Output:
+test_is_friend()
+Set up friends list
+
+add_friends( joe mary ray )
+add_one_friend(joe)
+friends: joe
+add_one_friend(mary)
+friends: joe, mary
+add_one_friend(ray)
+friends: joe, mary, ray
+Check function
+test_is_friend_ck: joe expect= True Passed Test
+test_is_friend_ck: marty expect= False Passed Test
+test_is_friend_ck: mary expect= True Passed Test
+Test the testing - this should fail the test.
+test_is_friend_ck: alex expect= True FAILED Test result= False expected= True
+>>> 
+
+ 

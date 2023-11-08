@@ -1,0 +1,24 @@
+From Mary M. to Everyone:  06:23 PM
+I find the most confusing is that you need to indent your code.  I understand the utility of it, but it seems to be unique to Python at least in my limited experience.
+From Beyza Burcak to Everyone:  06:25 PM
+The most confusing: finding the right function(s) for what I need
+From Mary M. to Everyone:  06:27 PM
+At my workplace (in my limited experience), I see that Python is most used for Natural Language Processing or searching free text fields.  Could you talk about this a little bit?
+From Nadia Beltchev to Everyone:  06:28 PM
+does += mean 'concatanate'?
+From Mary M. to Me:  (Privately) 06:37 PM
+Thank you for the demonstration of help (str) !!I also appreciate that your examples have both male & female names . Thank you !!!
+From Mary M. to Everyone:  06:39 PM
+address books ?phone contacts?
+From Neil Peterson to Me:  (Privately) 07:16 PM
+Which words are allowed to be used when writing out the code. Previous chat was for earlier question.  When creating a file, is it for storing the program and/or retaining data?
+From Samantha Lipsky to Everyone:  07:33 PM
+Can you show the screen with the create my txt
+From Mary M. to Everyone:  07:40 PM
+Thank you for another great class. Wishing you all a happy Friday and a good week.Thank you Ray for offering this class !!
+From Samantha Lipsky to Everyone:  07:43 PM
+Thanks Ray! I always learn something new with you!
+From Robert McCloskey to Everyone:  07:43 PM
+thanks
+
+
