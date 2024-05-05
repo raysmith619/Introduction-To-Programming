@@ -27,7 +27,7 @@ canvas.pack()
 # x increases to right
 # y increases down
 npts = 100
-points = []    # List of wx.Point, ..
+xys = []    # List of x,y coords
 fn_x_max = npts-1
 fn_y_max = fn_x_max**2
 for i in range(npts):
@@ -35,8 +35,7 @@ for i in range(npts):
     fn_y = fn_x**2
     x = x_min + x_range*fn_x/fn_x_max
     y = y_min + y_range*fn_y/fn_y_max
-    point = wx.Point(x,y)
-    points.append(point)
+    xys.extend([x,y])
     
 # line sequence    
 line = canvas.create_line(*xys, fill="red",

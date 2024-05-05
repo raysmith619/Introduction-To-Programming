@@ -2,6 +2,18 @@
 """
 list file - first of notes
 """
+import os
+cwd = os.getcwd()
+print(f"\ncurrent directory: {cwd}")   # f before quotes expands {value} in quotes
+
+src_dir = os.path.dirname(__file__)
+print(f"\nfile directory: {src_dir}")
+
+if cwd.lower() != src_dir.lower():
+    print("Changing directory to src dir")
+    os.chdir(src_dir)
+
+
 file_name = "my_notes.txt"
 
 inp = input("Enter File["+file_name+"]:")

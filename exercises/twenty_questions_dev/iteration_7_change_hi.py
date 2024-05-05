@@ -31,7 +31,7 @@ print(preamble)
 while True:
     one_game(target_hi=target_hi)
     print("Play a new game?")
-    inp = input("Enter N to quit: ")
+    inp = input("Enter N to quit, M to change hi: ")
     if inp == "N" or inp == "n":
         break
     if inp == "M" or inp == "m":

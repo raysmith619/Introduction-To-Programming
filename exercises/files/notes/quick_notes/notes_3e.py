@@ -14,24 +14,17 @@ import re
 import os
 
 # Protect if current working directory not source file directory
-cwd = os.getcwd()
 src_dir = os.path.dirname(__file__)
-if cwd.lower() != src_dir.lower():   
-    print(f"\ncurrent directory: {cwd}")   # f before quotes expands {value} in quotes
-    print(f"\nfile directory: {src_dir}")
-    print("Changing directory to src dir")
-    os.chdir(src_dir)
+os.chdir(src_dir)
 
 # Default values
-def_file_name = "test.notes"
-def_pattern = "student"
+file_name = "test.notes"
+file_name = "us_states.txt"
+pattern = "student"
+pattern = "mass"
 
 while True:
-    # Set to default values
-    pattern = def_pattern
-
     while True:
-        file_name = def_file_name
         while True:     # Loop till good file
             inp = input("Enter file name[" + file_name + "] ")
             inp = inp.rstrip()
