@@ -4,6 +4,7 @@ Simple program to demonstrate functions development
 We hope to show how a progam might start with a simple
 form and be modified, in steps, to add functionality,
 ending in a working program.
+
 To shorten our path we will start assuming we have an
 idea how to divide up the labor into a small
 group of functions below.  Production would probably

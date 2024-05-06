@@ -1,16 +1,13 @@
 # bouncing_balls_3.py  03Apr2024  crs, from bouncing_balls_2.py
 """
 Simple program to demonstrate functions development
-We hope to show how a progam might start with a simple
-form and be modified, in steps, to add functionality,
-ending in a working program.
-To shorten our path we will start assuming we have an
-idea how to divide up the labor into a small
-group of functions below.  Production would probably
-involve in trial and error in creating our function
-group.
-+ Display ball
-+ Update ball (simple)
+We're adding code to update the picture (ball's location)
+Including:
+    - balls velocity
+    - ball_update: location change per velocity*time
+History:
+    + Display ball
+    + Update ball (simple)
 """
 import time
 import turtle
@@ -24,7 +21,7 @@ b_t = turtle.Turtle()
 b_t.hideturtle()
 running = True
 b_x = b_y = b_vx = b_vy = 0 # Set via start_ball
-b_vx = b_vy = 10        # Simple seting
+b_vx = b_vy = 10        # Simple intial velocity setting
 
 ball_radius = 100
 

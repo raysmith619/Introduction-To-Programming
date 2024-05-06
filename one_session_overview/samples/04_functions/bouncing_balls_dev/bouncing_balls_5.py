@@ -1,14 +1,13 @@
 # bouncing_balls_5.py  03Apr2024  crs, from bouncing_balls_4.py
 """
 Simple program to demonstrate functions development
-We hope to show how a progam might start with a simple
-form and be modified, in steps, to add functionality,
-ending in a working program.
-To shorten our path we will start assuming we have an
-idea how to divide up the labor into a small
-group of functions below.  Production would probably
-involve in trial and error in creating our function
-group.
+
+Let's do something to emphasize each collision
+Using:
+    -- record collision
+    -- change ball color
+
+History:
 + Display ball
 + Update ball (simple)
 + Edge detection
@@ -82,25 +81,25 @@ def ball_edge_check():
     global ball_color_index
     global n_collision
     
-    collision = False
+    collision = False   # -- record if collision
     if b_vx > 0:        # Going right
         if b_x > x_edge_max-ball_radius:
             b_vx = - b_vx
             collision = True
-    elif b_vx < 0:        # Going right
+    elif b_vx < 0:        # Going left
         if b_x < x_edge_min+ball_radius:
             b_vx = - b_vx
-            collision = True
-    if b_vy > 0:        # Going right
+            collision = True    # -- record collision
+    if b_vy > 0:        # Going up
         if b_y > y_edge_max-ball_radius:
             b_vy = - b_vy
             collision = True
-    elif b_vy < 0:        # Going right
+    elif b_vy < 0:        # Going down
         if b_y < y_edge_min+ball_radius:
             b_vy = - b_vy
             collision = True
     if collision:
-        ball_color_index = (ball_color_index+1)%len(colors)
+        ball_color_index = (ball_color_index+1)%len(colors) # -- change color
             
 def ball_update():
     """ Update ball

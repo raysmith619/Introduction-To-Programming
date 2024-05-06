@@ -1,22 +1,22 @@
 # bouncing_balls_4.py  03Apr2024  crs, from bouncing_balls_2.py
 """
 Simple program to demonstrate functions development
-We hope to show how a progam might start with a simple
-form and be modified, in steps, to add functionality,
-ending in a working program.
-To shorten our path we will start assuming we have an
-idea how to divide up the labor into a small
-group of functions below.  Production would probably
-involve in trial and error in creating our function
-group.
-+ Display ball
-+ Update ball (simple)
-+ Edge detection
+
+We're adding edge detection which makes the ball bounce off edges.
+Including:
+    -- screen dimensions, border dimensions
+    -- ball_edge_check: code to check for edges bounce
+        off the edge.
+
+History:
+    + Display ball
+    + Update ball (simple)
+    + Edge detection
 """
 import time
 import turtle
 
-# screen dimensions
+# screen dimensions -- Required for edge detection
 window_width = 800
 window_height = 800
 x_edge_min = -window_width/2
@@ -26,11 +26,11 @@ y_edge_max = window_height/2
 
 
 screen = turtle.Screen()
-screen.setup(window_width, window_height)   # Window size.
+screen.setup(window_width, window_height)   # -- Window size.
 screen.tracer(0)        # Turn-off animation.
 
 update_loop_time = .01   # Our update loop time
-update_loop_time = .1    # Slow down for development
+#update_loop_time = .1    # Slow down for development
 
 b_t = turtle.Turtle()
 b_t.hideturtle()
@@ -68,7 +68,7 @@ def ball_display():
     b_t.dot(ball_radius*2, ball_color)
     b_t.up()
 
-def ball_edge_check():
+def ball_edge_check():      # -- fleshed out
     """ Adjust motion if/when edge touched
         Simple physics of edge collision says
             The velocity perpendicular to the
@@ -81,23 +81,19 @@ def ball_edge_check():
     global ball_color_index
     global n_collision
     
-    collision = False
-    if b_vx > 0:        # Going right
-        if b_x > x_edge_max-ball_radius:
-            b_vx = - b_vx
-            collision = True
-    elif b_vx < 0:        # Going right
+    if b_vx > 0:        # Going right (x-coordinate increases to right)
+        if b_x > x_edge_max-ball_radius:    # Pool ball center never
+                                            # touches the rail
+            b_vx = -b_vx
+    elif b_vx < 0:        # Going left
         if b_x < x_edge_min+ball_radius:
-            b_vx = - b_vx
-            collision = True
-    if b_vy > 0:        # Going right
+            b_vx = -b_vx
+    if b_vy > 0:        # Going up ( y-coordinate increases upwards)
         if b_y > y_edge_max-ball_radius:
-            b_vy = - b_vy
-            collision = True
-    elif b_vy < 0:        # Going right
+            b_vy = -b_vy
+    elif b_vy < 0:        # Going down
         if b_y < y_edge_min+ball_radius:
-            b_vy = - b_vy
-            collision = True
+            b_vy = -b_vy
             
 def ball_update():
     """ Update ball

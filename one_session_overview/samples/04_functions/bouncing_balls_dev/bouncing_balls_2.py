@@ -4,12 +4,15 @@ Simple program to demonstrate functions development
 We hope to show how a progam might start with a simple
 form and be modified, in steps, to add functionality,
 ending in a working program.
-To shorten our path we will start assuming we have an
-idea how to divide up the labor into a small
-group of functions below.  Production would probably
-involve in trial and error in creating our function
-group.
-+ Display ball
+
+Here we add just enough to display our round ball.
+Which includes:
+    - turtle code to make a display window
+    - Information about the ball
+    - Fleshing out the display_ball function with
+      turtle code to display a round ball
+History:
+    + Display ball
 """
 import time
 import turtle
@@ -19,12 +22,12 @@ screen.tracer(0)        # Turn-off animation.
 update_loop_time = .01   # Our update loop time
 update_loop_time = 1    # Slow down for development
 
-b_t = turtle.Turtle()
-b_t.hideturtle()
+b_t = turtle.Turtle()   # Create "turtle object"
+b_t.hideturtle()        # Remove turtle object display, leaving just object
 running = True
-b_x = b_y = b_vx = b_vy = 0 # Set via start_ball
+b_x = b_y = b_vx = b_vy = 0 # Set via start_ball - define ball info
 
-ball_radius = 100
+ball_radius = 100       # Set ball size
 
 ball_color_index = 4        # Index into colors
 colors = ["red", "orange", "yellow"

@@ -1,14 +1,11 @@
 # bouncing_balls_6.py  03Apr2024  crs, from bouncing_balls_5.py
 """
 Simple program to demonstrate functions development
-We hope to show how a progam might start with a simple
-form and be modified, in steps, to add functionality,
-ending in a working program.
-To shorten our path we will start assuming we have an
-idea how to divide up the labor into a small
-group of functions below.  Production would probably
-involve in trial and error in creating our function
-group.
+
+Change ball size every so often
+Using:
+    -- check if time to change ball size
+
 Upgrades:
     + Display ball
     + Update ball (simple)
@@ -108,7 +105,7 @@ def ball_edge_check():
     if collision:
         n_collision += 1
         ball_color_index = (ball_color_index+1)%len(colors)
-        if n_collision % 6 == 0:
+        if n_collision % 6 == 0:    # -- Change size every sixth collision
             ball_radius = randint(ball_radius_min,
                                   ball_radius_max)
 
