@@ -20,6 +20,10 @@ Setup test file(s): "test.notes",  "people.notes"
     4.	[Extra Credit]  Support multiple text patterns
 
 """
+import os
+os.chdir(os.path.dirname(__file__))
+file_name = "test.notes"
+
 import re            # Support Regular Expression Pattern Searching
 
 # Default values

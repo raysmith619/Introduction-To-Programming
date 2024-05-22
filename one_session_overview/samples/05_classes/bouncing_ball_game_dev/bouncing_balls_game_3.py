@@ -1,14 +1,10 @@
 # bouncing_balls_game_3.py  03Apr2024  crs, from bouncing_balls_2.py
 """
 Simple program to demonstrate class development
-We hope to show how a progam might start with a simple
-form and be modified, in steps, to add functionality,
-ending in a working program.
-To shorten our path we will start assuming we have an
-idea how to divide up the labor into a small
-group of functions below.  Production would probably
-involve in trial and error in creating our function
-group.
+Usage:
+    -- Add simple ball location update to ball.update()
+
+History:    
     + Display ball
     + Update ball (simple)
 """
@@ -18,7 +14,7 @@ import turtle
 screen = turtle.Screen()
 screen.tracer(0)        # Turn-off animation.
 
-class Ball:
+class Ball:     # -- Contains ball specific state and function
     """ Ball object with functions and state of a ball
     """
     def __init__(self, game, radius=100, color="blue",
@@ -51,19 +47,21 @@ class Ball:
         """ Update ball, e.g. position
         """
         print("ball.update()")
-
+                                # -- update locatoin based on velocity
         self.game.ball_edge_check()
         self.loc_x += self.v_x*self.game.update_time
         self.loc_y += self.v_y*self.game.update_time
         self.display()
 
-        
 
 class BouncingBallGame:
-    def __init__(self, update_time=.01):
+    def __init__(self, update_time=None):
         """ Do bouncing ball
         :update_time: Our update loop time
+                        default: .01 second
         """
+        if update_time is None:
+            update_time = .01
         self.update_time = update_time
         self.running = True
     
@@ -75,6 +73,7 @@ class BouncingBallGame:
 
     def start_ball(self):
         """ Setup ball, size, position, velocity
+            Save game's instance of ball (self.ball)
         """
         print("start_ball()")
         self.ball = Ball(self, radius=100, color="red",

@@ -17,6 +17,10 @@ Setup test file(s): "test.notes",  "people.notes"
     4.	[Extra Credit]  Support multiple text patterns
 
 """
+import os
+os.chdir(os.path.dirname(__file__))
+file_name = "test.notes"
+
 file_name = "test.notes"
 pattern = "student"
 with open(file_name) as finp:

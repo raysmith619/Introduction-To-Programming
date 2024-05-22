@@ -9,16 +9,22 @@ idea how to divide up the labor into a class(object)
 with thought out group of classes / functions.  Production
 would probably involve in trial and error
 in creating our classes / functions.
+History:
+    + Move function group into a main class
+    + Put the main loop in a member function run()
 """
 import time
 update_loop_time = .01   # 
 running = True
 
 class BouncingBallGame:
-    def __init__(self, update_time=.01):
+    def __init__(self, update_time=None):
         """ Do bouncing ball
         :update_time: Our update loop time
+                        default: .01 second
         """
+        if update_time is None:     # Check if absent ==> default
+            update_time = .01
         self.update_time = update_time
         self.running = True
     

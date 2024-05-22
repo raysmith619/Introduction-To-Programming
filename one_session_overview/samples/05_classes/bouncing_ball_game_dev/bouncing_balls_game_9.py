@@ -1,14 +1,10 @@
 # bouncing_balls_game_9.py  03Apr2024  crs, add clean close
 """
 Simple program to demonstrate class development
-We hope to show how a progam might start with a simple
-form and be modified, in steps, to add functionality,
-ending in a working program.
-To shorten our path we will start assuming we have an
-idea how to divide up the labor into a small
-group of functions below.  Production would probably
-involve in trial and error in creating our function
-group.
+Using:
+    -- Use game count of collisions, instead of ball count,
+        to get new ball color
+
 Upgrades:
     + Display ball
     + Update ball (simple)
@@ -102,11 +98,11 @@ class BouncingBallGame:
         screen.setup(window_width, window_height)   # Window size.
         screen.tracer(0)        # Turn-off animation.
 
-        ### Setup access to enable window closing
+        ### Setup access to enable window closing --
         canvas = turtle.getcanvas()
         self.root = canvas.winfo_toplevel()
 
-        # Enable clicking window close to do
+        # Enable clicking window close to do --
         # clean program stop
         self.root.protocol("WM_DELETE_WINDOW", self.on_close)                    
     
@@ -175,10 +171,10 @@ class BouncingBallGame:
                 collision = True
                 
         if collision:
-            self.n_collision += 1  # in game
+            self.n_collision += 1  # in game --
             ball.n_collision += 1  # in ball
             ball.ball_color_index = (
-                self.n_collision%len(ball.colors)
+                self.n_collision%len(ball.colors)  # Use game count --
                 )
             if ball.n_collision % 6 == 0:
                 ball.radius = randint(ball.radius_min,

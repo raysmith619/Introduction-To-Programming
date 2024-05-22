@@ -1,15 +1,11 @@
 # bouncing_balls_game_8.py  03Apr2024  crs, add clean close
 """
 Simple program to demonstrate class development
-We hope to show how a progam might start with a simple
-form and be modified, in steps, to add functionality,
-ending in a working program.
-To shorten our path we will start assuming we have an
-idea how to divide up the labor into a small
-group of functions below.  Production would probably
-involve in trial and error in creating our function
-group.
-Upgrades:
+Using:
+    -- Some event magic to capture window closing
+
+
+History:
     + Display ball
     + Update ball (simple)
     + Edge detection
@@ -100,11 +96,11 @@ class BouncingBallGame:
         screen.setup(window_width, window_height)   # Window size.
         screen.tracer(0)        # Turn-off animation.
 
-        ### Setup access to enable window closing
+        ### Setup access to enable window closing --
         canvas = turtle.getcanvas()
         self.root = canvas.winfo_toplevel()
 
-        # Enable clicking window close to do
+        # Enable clicking window close to do --
         # clean program stop
         self.root.protocol("WM_DELETE_WINDOW", self.on_close)                    
     

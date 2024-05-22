@@ -1,14 +1,11 @@
 # bouncing_balls_game_7.py  03Apr2024  crs, from bouncing_balls_6.py
 """
 Simple program to demonstrate class development
-We hope to show how a progam might start with a simple
-form and be modified, in steps, to add functionality,
-ending in a working program.
-To shorten our path we will start assuming we have an
-idea how to divide up the labor into a small
-group of functions below.  Production would probably
-involve in trial and error in creating our function
-group.
+Usage:
+    -- Create a list of balls in game:start_ball()
+    -- Update list of balls in game:ball_update()
+
+
 Upgrades:
     + Display ball
     + Update ball (simple)
@@ -92,7 +89,7 @@ class BouncingBallGame:
         self.x_edge_max = window_width/2
         self.y_edge_min = -window_height/2
         self.y_edge_max = window_height/2
-        self.balls = []         # List of balls
+        self.balls = []         # -- List of balls
         self.max_v = 700
         self.min_v = 200
         screen = turtle.Screen()
@@ -111,7 +108,7 @@ class BouncingBallGame:
         :nball: number of balls default: 1
         """
         print("start_ball()")
-        for i in range(nball):
+        for i in range(nball):  # -- create a number of balls
             v_x = randint(self.min_v, self.max_v)
             v_y = randint(self.min_v, self.max_v)
             ball = Ball(self, radius=100, color="red",
@@ -191,4 +188,4 @@ Run our own loop
 ut = None   # Use the default (internal) time
 #ut = .1    # Slow down for development
 bg = BouncingBallGame(update_time = ut)
-bg.run(4)
+bg.run(6)

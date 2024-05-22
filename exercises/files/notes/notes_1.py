@@ -1,4 +1,5 @@
-# notes_1.py  26-Jul-2018
+# notes_1.py    22-May-2024  Add chdir to look in this file's dir
+#               26-Jul-2018
 """
 Write a "Notes" program. The program will display lines
 from a text file, containing a given text string.
@@ -15,6 +16,9 @@ Setup test file(s): "test.notes",  "people.notes"
     4.	[Extra Credit]  Support multiple text patterns
 + Just print file lines
 """
+import os
+os.chdir(os.path.dirname(__file__))
+
 file_name = "test.notes"
 with open(file_name) as finp:
     for line in finp:

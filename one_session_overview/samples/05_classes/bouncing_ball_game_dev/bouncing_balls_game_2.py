@@ -1,14 +1,14 @@
 # bouncing_balls_game_2.py  03Apr2024  crs, from bouncing_balls_1.py
 """
 Simple program to demonstrate class development
-We hope to show how a progam might start with a simple
-form and be modified, in steps, to add functionality,
-ending in a working program.
-To shorten our path we will start assuming we have an
-idea how to divide up the labor into a small
-group of functions below.  Production would probably
-involve in trial and error in creating our function
-group.
+Using:
+    -- Add Ball class to contain ball specific data/state and function
+        data: size, color, location, position
+                turtle object for display
+        function: display, update
+    -- Add turtle display basics
+    -- Place turtle code in Ball.display()
+    
 + Display ball
 """
 import time
@@ -29,25 +29,29 @@ class Ball:
         self.v_y = v_y
         self.loc_x = loc_x
         self.loc_y = loc_y
-        self.b_t = turtle.Turtle()
-        self.b_t.hideturtle()
+        self.b_t = turtle.Turtle()  # -- Create turtle object
+        self.b_t.hideturtle()       # -- Hide turtle figure
 
     def display(self):
         """ Display ball
         """
+        # Use turtle object as access to display commands --
         self.b_t.clear()
         self.b_t.up()
-        self.b_t.goto(self.loc_x, self.loc_y)
+        self.b_t.goto(self.loc_x, self.loc_y)   # All is in object via self --
         self.b_t.down()
         self.b_t.dot(self.radius*2, self.color)
         self.b_t.up()
         
 
 class BouncingBallGame:
-    def __init__(self, update_time=.01):
+    def __init__(self, update_time=None):
         """ Do bouncing ball
         :update_time: Our update loop time
+                        default: .01 second
         """
+        if update_time is None:
+            update_time = .01
         self.update_time = update_time
         self.running = True
     

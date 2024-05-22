@@ -12,6 +12,10 @@ Loop asking for new file
 Loop over patterns
 Use regular expression search
 """
+import os
+os.chdir(os.path.dirname(__file__))
+file_name = "test.notes"
+
 import re
 
 # Default values

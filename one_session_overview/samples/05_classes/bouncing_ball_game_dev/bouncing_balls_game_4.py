@@ -1,15 +1,11 @@
 # bouncing_balls_game_4.py  03Apr2024  crs, from bouncing_balls_3.py
 """
 Simple program to demonstrate class development
-We hope to show how a progam might start with a simple
-form and be modified, in steps, to add functionality,
-ending in a working program.
-To shorten our path we will start assuming we have an
-idea how to divide up the labor into a small
-group of functions below.  Production would probably
-involve in trial and error in creating our function
-group.
-Upgrades:
+Usage:
+    -- Fleshout BouncingBallGame.ball_edge_check() with physics
+        of bouncing balls
+
+History:
     + Display ball
     + Update ball (simple)
     + Edge detection
@@ -102,7 +98,8 @@ class BouncingBallGame:
     def start_ball(self):
         """ Setup ball, size, position, velocity
         """
-        print("start_ball()")
+        if trace_level >= 0:
+            print("start_ball()")
         self.ball = Ball(self, radius=100, color="red",
                          v_x=200, v_y=500)
         
@@ -110,7 +107,8 @@ class BouncingBallGame:
     def ball_display(self):
         """ Display ball
         """
-        print("ball_display()")
+        if trace_level > 0:
+            print("ball_display()")
         self.ball.display()
 
     def ball_edge_check(self, ball):
@@ -123,37 +121,35 @@ class BouncingBallGame:
         if trace_level > 0:
             print("ball_edge_check()")
     
-        collision = False
+        # -- basic bouncing ball physics
         if ball.v_x > 0:        # Going right
             if ball.loc_x > self.x_edge_max-ball.radius:
                 ball.v_x = -ball.v_x
-                collision = True
         elif ball.v_x < 0:        # Going left
             if ball.loc_x < self.x_edge_min+ball.radius:
                 ball.v_x = -ball.v_x
-                collision = True
         if ball.v_y > 0:        # Going up
             if ball.loc_y > self.y_edge_max-ball.radius:
                 ball.v_y = -ball.v_y
-                collision = True
         elif ball.v_y < 0:        # Going down
             if ball.loc_y < self.y_edge_min+ball.radius:
                 ball.v_y = -ball.v_y
-                collision = True
 
 
     def ball_update(self):
         """ Update ball
             Includes handeling edge collisions
         """
-        print("ball_update()")
+        if trace_level > 0:
+            print("ball_update()")
         self.ball.update()
         self.ball.display()
 
     def screen_update(self):
         """ Update screen display
         """
-        print("screen_update()")
+        if trace_level > 0:
+            print("screen_update()")
         self.ball_update()
         screen.update()     # In each while loop, refresh the screen with the new drawing.
 

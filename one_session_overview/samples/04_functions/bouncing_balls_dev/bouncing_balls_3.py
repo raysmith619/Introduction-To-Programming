@@ -3,8 +3,8 @@
 Simple program to demonstrate functions development
 We're adding code to update the picture (ball's location)
 Including:
-    - balls velocity
-    - ball_update: location change per velocity*time
+    -- balls velocity
+    -- ball_update: location change per velocity*time
 History:
     + Display ball
     + Update ball (simple)
@@ -20,8 +20,8 @@ update_loop_time = 1    # Slow down for development
 b_t = turtle.Turtle()
 b_t.hideturtle()
 running = True
-b_x = b_y = b_vx = b_vy = 0 # Set via start_ball
-b_vx = b_vy = 10        # Simple intial velocity setting
+b_x = b_y = 0           # Set via start_ball
+b_vx = b_vy = 10        # Simple intial velocity setting --
 
 ball_radius = 100
 
@@ -67,7 +67,7 @@ def ball_update():
     global b_x, b_y
 
     ball_edge_check()
-    b_x += b_vx*update_loop_time
+    b_x += b_vx*update_loop_time    # loc change = velocity*time --
     b_y += b_vy*update_loop_time
     ball_display()
 
