@@ -1,0 +1,53 @@
+Introducing Computer Graphics to the Blind Viewer, One Pixel at a Time (Zoom)
+2024-09-24 19.47.05
+meeting_saved_chat 
+
+email list:
+michael_hobson@hcpss.org
+lmerwin@bostonpublicschools.org
+unger@bu.edu
+
+19:05:08 From Laura Merwin to Everyone:
+	Does anyone know if the Monarch does on demand pictures? I haven’t used one yet.
+19:08:59 From Lori to Everyone:
+	I haven’t used a monarch yet, but my co-worker said it has to be hooked up to a laptop. It doesn’t connect to the internet.
+
+
+19:11:02 From Laura Merwin to Everyone:
+	Oh that’s interesting… so it is just a braille display then. Interesting. 
+	I have a 9th grader who is blind who might be taking intro to computer science next semester and I am trying to get a better understanding of what skills he is going to need to take the class. All of this is like a foreign language to me!
+
+19:22:09 From Lori to Everyone:
+	People are using braille when braille teachers are available in their communities. This is important not to eliminate it. It should be combined and it might depend on the project.
+
+	
+	I have a 9th grader who is blind who might be taking intro to computer science next semester and I am trying to get a better understanding of what skills he is going to need to take the class. All of this is like a foreign language to me!
+
+19:29:00 From Lori to Everyone:
+	Braille is literacy. But for this purpose, tactile is great!
+
+19:42:24 From Michael Hobson to Everyone:
+	I need to leave.  Ray, thank you so much for developing and sharing this.  My email address is michael_hobson@hcpss.org, please contact me about next steps and I will set up for my student to try and give you feedback.  This would be a natural fit for my curriculum within 2 weeks, so if I could hear back from you soon, that will be wonderful.
+
+
+
+19:44:28 From Lori to Everyone:
+	There is something called Tiger software. It is something we have asked for in our budget for a few years, but it hasn’t been approved.
+
+19:45:19 From Lori to Everyone:
+	There is also a refreshable braille display that is just being released and is very expensive. I hope to get my hands on one in March.
+
+19:46:14 From Laura Merwin to Everyone:
+	Lori, if you order the APH PixBlaster through quota funds you will get a Tiger Designer license included with it.
+
+
+19:48:18 From Lori to Everyone:
+	This is great for a quick option. I work with Mike’s students, so I hope to use this in a couple of weeks with my students. Thank you for sharing your knowledge. I have to jump on to another call. Thanks again!
+
+19:49:59 From Laura Merwin to Everyone:
+	good luck Lori… if you have any tips for me as a TVI, please email me. This is a first for me: 
+lmerwin@bostonpublicschools.org
+
+
+19:56:58 From Laura Merwin to Everyone:
+	Thank you Ray and everyone! I am going to run. This is all so new to me. I don’t know literally anything about programming, but I have a blind student who is taking Computer Science next semester and I am trying to figure out what AT skills he is going to need to do it. Feel free to contact me: lmerwin@bostonpublicschools.org
